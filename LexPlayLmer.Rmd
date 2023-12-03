@@ -1,0 +1,433 @@
+---
+title: "WordCountLmer"
+output: html_document
+date: "2023-11-04"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+setwd("/Users/AnnieJ/Annie Jain Dropbox/Dhvani Jain/My Mac (MacBook Pro)/Downloads/LexPlay data")
+
+df <- read.csv("LexPlay_compiled_norms.csv")
+
+# Install required packages if not already installed
+install.packages(c("ggplot2", "tidyverse", "gridExtra"))
+
+# Load required libraries
+library(ggplot2)
+library(tidyverse)
+library(gridExtra)
+```
+Center the variables
+```{r}
+category_type <- df['category_type']
+
+df["category_type"][df["category_type"] == "taxonomic"] <- 0.5
+df["category_type"][df["category_type"] == "thematic"] <- -0.5
+
+df["category_type_centered"] <- as.numeric(df$category_type)
+df["category_type"] <- category_type
+
+semantic_field <- df['semantic_field']
+
+df["semantic_field"][df["semantic_field"] == "animal_field"] <- 0.5
+df["semantic_field"][df["semantic_field"] == "food_field"] <- -0.5
+
+df["semantic_field_centered"] <- as.numeric(df$semantic_field)
+df["semantic_field"] <- semantic_field
+
+```
+Lmer model
+```{r}
+library("lmerTest")
+```
+
+
+Likelihood ratio test by performing LRTs on all fixed-effects (but not random effects)
+```{r}
+df$age_mean_centered <- (df$age - mean(df$age))/sd(df$age)
+
+m <- lmer(word_count ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 + category_type_centered*semantic_field_centered | id), data=df)
+
+library(afex)
+mixed(word_count ~ age_mean_centered*category_type_centered*semantic_field_centered + (1 + category_type_centered*semantic_field_centered|id), data=df, control=lmerControl(optimizer='bobyqa'), method='LRT')
+```
+
+
+```{r}
+summary(m)
+```
+```{r}
+
+#summarize means for each category and semantic field
+subj_summarized_wc <- df %>%
+  group_by(id, semantic_field, category_type) %>%
+  summarize(
+    mean_wc=mean(word_count)
+  )
+summarized_wc <- subj_summarized_wc %>%
+  group_by(semantic_field, category_type)  %>%
+  summarize(
+    N=n(),
+    mean_word_count=mean(mean_wc),
+    sd_word_count = sd(mean_wc),
+    ci_word_count = qt(0.975,N-1)*sd_word_count/sqrt(N)
+  )
+
+
+wc_stats <- summary(m)[["coefficients"]]
+```
+```{r}
+wc_stats <- as.data.frame(wc_stats)
+```
+```{r}
+wc_stats$Estimate
+```
+
+```{r}
+m <- lmer(frequency ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 + category_type_centered*semantic_field_centered | id), data=df)
+```
+
+```{r}
+summary(m)
+```
+```{r}
+freq_stats <- summary(m)[["coefficients"]]
+```
+```{r}
+freq_stats <- as.data.frame(freq_stats)
+```
+```{r}
+freq_stats$Estimate
+```
+
+
+```{r}
+m <- lmer(aoa ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 + category_type_centered*semantic_field_centered | id), data=df)
+```
+
+```{r}
+summary(m)
+```
+```{r}
+aoa_stats <- summary(m)[["coefficients"]]
+```
+```{r}
+aoa_stats <- as.data.frame(aoa_stats)
+```
+```{r}
+aoa_stats$Estimate
+```
+```{r}
+m <- lmer(concreteness ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 + category_type_centered*semantic_field_centered | id), data=df)
+```
+
+```{r}
+summary(m)
+```
+```{r}
+conc_stats <- summary(m)[["coefficients"]]
+```
+```{r}
+conc_stats <- as.data.frame(conc_stats)
+```
+```{r}
+conc_stats$Estimate
+```
+```{r}
+# calculate confidence intervals
+wc_stats$ci_lower <- wc_stats$Estimate - 1.96*wc_stats$`Std. Error`
+wc_stats$ci_upper <- wc_stats$Estimate + 1.96*wc_stats$`Std. Error`
+freq_stats$ci_lower <- freq_stats$Estimate - 1.96*freq_stats$`Std. Error`
+freq_stats$ci_upper <- freq_stats$Estimate + 1.96*freq_stats$`Std. Error`
+aoa_stats$ci_lower <- aoa_stats$Estimate - 1.96*aoa_stats$`Std. Error`
+aoa_stats$ci_upper <- aoa_stats$Estimate + 1.96*aoa_stats$`Std. Error`
+conc_stats$ci_lower <- conc_stats$Estimate - 1.96*conc_stats$`Std. Error`
+conc_stats$ci_upper <- conc_stats$Estimate + 1.96*conc_stats$`Std. Error`
+```
+```{r}
+wc_stats$`Pr(>|t|)`
+```
+
+
+```{r}
+# Create the plot
+this <- wc_stats[c("category_type_centered","semantic_field_centered"),]
+that <- wc_stats[c("category_type_centered:age_mean_centered", "semantic_field_centered:age_mean_centered"),]
+this_colors <- this %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+that_colors <- that %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+x <- c("Category Type", "Semantic Field")
+
+plot1 <- ggplot(this, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper)) +
+  geom_pointrange(aes(color=this_colors$color, shape=this_colors$color), size = 0.5) +
+  scale_color_manual(values = this_colors$color) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "Main Effect",
+       x = "Estimate",
+       y = "Prompt Element") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  geom_vline(xintercept = 0, linetype = "dashed")  # Add a vertical dashed line at x=0
+```
+```{r}
+plot2 <- ggplot(that, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper)) +
+  geom_pointrange(aes(color=that_colors$color, shape = this_colors$color), size = 0.5) +
+  scale_color_manual(values = that_colors$color) +
+  scale_shape_manual(values = c(1)) +
+  labs(title = "Interaction with age",
+       x = "Estimate",
+       y = "Prompt Element") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  geom_vline(xintercept = 0, linetype = "dashed")  # Add a vertical dashed line at x=0
+
+grid.arrange(plot1, plot2)
+```
+
+
+```{r}
+# Create the plot
+this <- freq_stats[c("category_type_centered","semantic_field_centered"),]
+that <- freq_stats[c("category_type_centered:age_mean_centered", "semantic_field_centered:age_mean_centered"),]
+this_colors <- this %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+that_colors <- that %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+x <- c("Category Type", "Semantic Field")
+
+plot1 <- ggplot(this, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper)) +
+  geom_pointrange(aes(color=this_colors$color, shape=this_colors$color), size = 0.3) +
+  scale_color_manual(values = this_colors$color) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "Main Effect",
+       x = "Estimate",
+       y = "Prompt Element") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  geom_vline(xintercept = 0, linetype = "dashed")  # Add a vertical dashed line at x=0
+```
+```{r}
+plot2 <- ggplot(that, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper)) +
+  geom_pointrange(aes(color=that_colors$color, shape = this_colors$color), size = 0.3) +
+  scale_color_manual(values = that_colors$color) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "Interaction with age",
+       x = "Estimate",
+       y = "Prompt Element") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  geom_vline(xintercept = 0, linetype = "dashed")  # Add a vertical dashed line at x=0
+
+grid.arrange(plot1, plot2)
+```
+```{r}
+# Create the plot
+this <- aoa_stats[c("category_type_centered","semantic_field_centered"),]
+that <- aoa_stats[c("category_type_centered:age_mean_centered", "semantic_field_centered:age_mean_centered"),]
+this_colors <- this %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+that_colors <- that %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+x <- c("Category Type", "Semantic Field")
+
+plot1 <- ggplot(this, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper)) +
+  geom_pointrange(aes(color=this_colors$color, shape=this_colors$color), size = 0.3) +
+  scale_color_manual(values = this_colors$color) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "Main Effect",
+       x = "Estimate",
+       y = "Prompt Element") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  geom_vline(xintercept = 0, linetype = "dashed")  # Add a vertical dashed line at x=0
+```
+```{r}
+plot2 <- ggplot(that, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper)) +
+  geom_pointrange(aes(color=that_colors$color, shape = this_colors$color), size = 0.3) +
+  scale_color_manual(values = that_colors$color) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "Interaction with age",
+       x = "Estimate",
+       y = "Prompt Element") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  geom_vline(xintercept = 0, linetype = "dashed")  # Add a vertical dashed line at x=0
+
+grid.arrange(plot1, plot2)
+```
+```{r}
+# Create the plot
+this <- conc_stats[c("category_type_centered","semantic_field_centered"),]
+that <- conc_stats[c("category_type_centered:age_mean_centered", "semantic_field_centered:age_mean_centered"),]
+this_colors <- this %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+that_colors <- that %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+x <- c("Category Type", "Semantic Field")
+
+plot1 <- ggplot(this, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper)) +
+  geom_pointrange(aes(color=this_colors$color, shape=this_colors$color), size = 0.3) +
+  scale_color_manual(values = this_colors$color) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "Main Effect",
+       x = "Estimate",
+       y = "Prompt Element") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  geom_vline(xintercept = 0, linetype = "dashed")  # Add a vertical dashed line at x=0
+```
+```{r}
+plot2 <- ggplot(that, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper)) +
+  geom_pointrange(aes(color=that_colors$color, shape = this_colors$color), size = 0.3) +
+  scale_color_manual(values = that_colors$color) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "Interaction with age",
+       x = "Estimate",
+       y = "Prompt Element") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  geom_vline(xintercept = 0, linetype = "dashed")  # Add a vertical dashed line at x=0
+
+grid.arrange(plot1, plot2)
+```
+
+```{r}
+
+wc_stats <- wc_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(wc_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- wc_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "Word Count",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+```{r}
+freq_stats <- freq_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(wc_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- freq_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "Frequency",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+```{r}
+aoa_stats <- aoa_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(aoa_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- aoa_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "AoA",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+```{r}
+conc_stats <- conc_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(conc_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- conc_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "Concreteness",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+```{r}
+wc_mean <- mean(df$word_count)
+sd <- sd(df$word_count)
+conf_lower <- mean(df$word_count) - sd(df$word_count) / sqrt(296)
+conf_upper <- mean(df$word_count) + sd(df$word_count) / sqrt(296)
+```
+```{r}
+freq_mean <- mean(df$frequency)
+sd <- sd(df$frequency)
+conf_lower <- mean(df$frequency) - sd(df$frequency) / sqrt(296)
+conf_upper <- mean(df$frequency) + sd(df$frequency) / sqrt(296)
+```
+```{r}
+aoa_mean <- mean(df$aoa)
+sd <- sd(df$aoa)
+conf_lower <- mean(df$aoa) - sd(df$aoa) / sqrt(296)
+conf_upper <- mean(df$aoa) + sd(df$aoa) / sqrt(296)
+```
+```{r}
+conc_mean <- mean(df$concreteness)
+sd <- sd(df$concreteness)
+conf_lower <- mean(df$concreteness) - sd(df$concreteness) / sqrt(296)
+conf_upper <- mean(df$concreteness) + sd(df$concreteness) / sqrt(296)
+```
+
+
+
+
