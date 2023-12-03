@@ -1,0 +1,605 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+setwd("/Users/AnnieJ/Annie Jain Dropbox/Dhvani Jain/My Mac (MacBook Pro)/Downloads/LexPlay data")
+
+df <- read.csv("LexPlay_individual_network_metrics.csv")
+
+# Install required packages if not already installed
+install.packages(c("ggplot2", "tidyverse", "gridExtra"))
+
+# Load required libraries
+library(ggplot2)
+library(tidyverse)
+library(gridExtra)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+```{r}
+category_type <- df['category_type']
+
+df["category_type"][df["category_type"] == "taxonomic"] <- 0.5
+df["category_type"][df["category_type"] == "thematic"] <- -0.5
+
+df["category_type_centered"] <- as.numeric(df$category_type)
+df["category_type"] <- category_type
+
+semantic_field <- df['semantic_field']
+
+df["semantic_field"][df["semantic_field"] == "animal_field"] <- 0.5
+df["semantic_field"][df["semantic_field"] == "food_field"] <- -0.5
+
+df["semantic_field_centered"] <- as.numeric(df$semantic_field)
+df["semantic_field"] <- semantic_field
+
+```
+```{r}
+library("lmerTest")
+```
+```{r}
+df$age_mean_centered <- (df$age - mean(df$age))/sd(df$age)
+uinvite_df = df[df$network=='u-invite',]
+esn_df = df[df$network=='esn',]
+both_df = df[df$network!='nrw',]
+m <- lmer(n ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 | id), data=uinvite_df)
+```
+```{r}
+summary(m)
+```
+```{r}
+uinvite_n_stats <- as.data.frame(summary(m)[["coefficients"]])
+```
+```{r}
+
+effects_uinvite <- effects::effect(term= "age_mean_centered", mod = m)
+summary(effects_uinvite) #output of what the values are
+uinvite_age_d <- as.data.frame(effects_uinvite)
+```
+```{r}
+plot <- ggplot() + 
+  #2
+geom_point(data=uinvite_df, aes(age, n)) + 
+  #3
+  geom_point(data=uinvite_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), y=fit), color="purple") +
+  #4
+  geom_line(data=uinvite_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), y=fit), color="purple") +
+  #5
+  geom_ribbon(data= uinvite_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), ymin=lower, ymax=upper), alpha= 0.3, fill="purple") +
+  #6
+  labs(x="Age", y="Number of Nodes", title="U-INVITE")
+
+plot
+```
+```{r}
+m <- lmer(n ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 | id), data=esn_df)
+```
+```{r}
+esn_n_stats <- as.data.frame(summary(m)[["coefficients"]])
+summary(m)
+```
+
+```{r}
+effect <- effects::effect(term= "age_mean_centered", mod = m)
+summary(effect) #output of what the values are
+fxdf <- as.data.frame(effect)
+```
+
+
+```{r}
+plot <- ggplot() + 
+  #2
+geom_point(data=esn_df, aes(age, n)) + 
+  #3
+  geom_point(data=fxdf, aes(x=age_mean_centered*sd(df$age) + mean(df$age), y=fit), color="purple") +
+  #4
+  geom_line(data=fxdf, aes(x=age_mean_centered*sd(df$age) + mean(df$age), y=fit), color="purple") +
+  #5
+  geom_ribbon(data= fxdf, aes(x=age_mean_centered*sd(df$age) + mean(df$age), ymin=lower, ymax=upper), alpha= 0.3, fill="purple") +
+  #6
+  labs(x="Age", y="Number of Nodes", title="ESN")
+
+plot
+```
+
+
+```{r}
+m <- lmer(m ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 | id), data=uinvite_df)
+uinvite_m_stats <- as.data.frame(summary(m)[["coefficients"]])
+summary(m)
+
+```
+```{r}
+m <- lmer(m ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 | id), data=esn_df)
+esn_m_stats <- as.data.frame(summary(m)[["coefficients"]])
+summary(m)
+
+```
+```{r}
+m <- lmer(c ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 | id), data=uinvite_df)
+uinvite_c_stats <- as.data.frame(summary(m)[["coefficients"]])
+summary(m)
+```
+```{r}
+m <- lmer(c ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 | id), data=esn_df)
+esn_c_stats <- as.data.frame(summary(m)[["coefficients"]])
+summary(m)
+```
+
+
+```{r}
+m <- lmer(pl ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 | id), data=uinvite_df)
+uinvite_pl_stats <- as.data.frame(summary(m)[["coefficients"]])
+summary(m)
+
+```
+```{r}
+
+effects_uinvite <- effects::effect(term= "age_mean_centered", mod = m)
+summary(effects_uinvite) #output of what the values are
+uinvite_age_d <- as.data.frame(effects_uinvite)
+```
+```{r}
+plot <- ggplot() + 
+  #2
+geom_point(data=uinvite_df, aes(age, pl)) + 
+  #3
+  geom_point(data=uinvite_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), y=fit), color="purple") +
+  #4
+  geom_line(data=uinvite_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), y=fit), color="purple") +
+  #5
+  geom_ribbon(data= uinvite_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), ymin=lower, ymax=upper), alpha= 0.3, fill="purple") +
+  #6
+  labs(x="Age", y="Path Lengths", title="U-INVITE")
+
+plot
+```
+
+
+
+```{r}
+m <- lmer(pl ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 | id), data=esn_df)
+esn_pl_stats <- as.data.frame(summary(m)[["coefficients"]])
+summary(m)
+```
+```{r}
+effects_esn <- effects::effect(term= "age_mean_centered", mod = m)
+summary(effects_esn) #output of what the values are
+esn_age_d <- as.data.frame(effects_esn)
+```
+```{r}
+plot <- ggplot() + 
+  #2
+geom_point(data=esn_df, aes(age, pl)) + 
+  #3
+  geom_point(data=esn_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), y=fit), color="purple") +
+  #4
+  geom_line(data=esn_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), y=fit), color="purple") +
+  #5
+  geom_ribbon(data= esn_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), ymin=lower, ymax=upper), alpha= 0.3, fill="purple") +
+  #6
+  labs(x="Age", y="Path Lengths", title="ESN")
+
+plot
+```
+
+```{r}
+m <- lmer(ed ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 | id), data=uinvite_df)
+uinvite_ed_stats <- as.data.frame(summary(m)[["coefficients"]])
+summary(m)
+
+```
+```{r}
+effects_uinvite <- effects::effect(term= "age_mean_centered", mod = m)
+summary(effects_uinvite) #output of what the values are
+uinvite_age_d <- as.data.frame(effects_uinvite)
+```
+```{r}
+plot <- ggplot() + 
+  #2
+geom_point(data=uinvite_df, aes(age, ed)) + 
+  #3
+  geom_point(data=uinvite_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), y=fit), color="purple") +
+  #4
+  geom_line(data=uinvite_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), y=fit), color="purple") +
+  #5
+  geom_ribbon(data= uinvite_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), ymin=lower, ymax=upper), alpha= 0.3, fill="purple") +
+  #6
+  labs(x="Age", y="Edge Density", title="U-INVITE")
+
+plot
+```
+
+
+```{r}
+m <- lmer(ed ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 | id), data=esn_df)
+esn_ed_stats <- as.data.frame(summary(m)[["coefficients"]])
+summary(m)
+```
+```{r}
+effects_esn <- effects::effect(term= "age_mean_centered", mod = m)
+summary(effects_esn) #output of what the values are
+esn_age_d <- as.data.frame(effects_esn)
+```
+```{r}
+plot <- ggplot() + 
+  #2
+geom_point(data=esn_df, aes(age, ed)) + 
+  #3
+  geom_point(data=esn_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), y=fit), color="purple") +
+  #4
+  geom_line(data=esn_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), y=fit), color="purple") +
+  #5
+  geom_ribbon(data= esn_age_d, aes(x=age_mean_centered*sd(df$age) + mean(df$age), ymin=lower, ymax=upper), alpha= 0.3, fill="purple") +
+  #6
+  labs(x="Age", y="Edge Density", title="ESN")
+
+plot
+```
+
+
+```{r}
+m <- lmer(d ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 | id), data=uinvite_df)
+uinvite_d_stats <- as.data.frame(summary(m)[["coefficients"]])
+summary(m)
+
+```
+
+
+```{r}
+m <- lmer(d ~ category_type_centered*semantic_field_centered*age_mean_centered + (1 | id), data=esn_df)
+esn_d_stats <- as.data.frame(summary(m)[["coefficients"]])
+summary(m)
+```
+```{r}
+uinvite_n_stats$ci_lower <- uinvite_n_stats$Estimate - 1.96*uinvite_n_stats$`Std. Error`
+uinvite_n_stats$ci_upper <- uinvite_n_stats$Estimate + 1.96*uinvite_n_stats$`Std. Error`
+uinvite_n_stats <- uinvite_n_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(uinvite_n_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- uinvite_n_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "#Nodes",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+```{r}
+esn_n_stats$ci_lower <- esn_n_stats$Estimate - 1.96*esn_n_stats$`Std. Error`
+esn_n_stats$ci_upper <- esn_n_stats$Estimate + 1.96*esn_n_stats$`Std. Error`
+esn_n_stats <- esn_n_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(esn_n_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- esn_n_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "#Nodes",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+```{r}
+uinvite_m_stats$ci_lower <- uinvite_m_stats$Estimate - 1.96*uinvite_m_stats$`Std. Error`
+uinvite_m_stats$ci_upper <- uinvite_m_stats$Estimate + 1.96*uinvite_m_stats$`Std. Error`
+uinvite_m_stats <- uinvite_n_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(uinvite_m_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- uinvite_m_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "#Edges",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+```{r}
+
+esn_m_stats$ci_lower <- esn_m_stats$Estimate - 1.96*esn_m_stats$`Std. Error`
+esn_m_stats$ci_upper <- esn_m_stats$Estimate + 1.96*esn_m_stats$`Std. Error`
+esn_m_stats <- esn_m_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(esn_m_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- esn_m_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "#Edges",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+```{r}
+uinvite_c_stats$ci_lower <- uinvite_c_stats$Estimate - 1.96*uinvite_c_stats$`Std. Error`
+uinvite_c_stats$ci_upper <- uinvite_c_stats$Estimate + 1.96*uinvite_c_stats$`Std. Error`
+uinvite_c_stats <- uinvite_c_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(uinvite_c_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- uinvite_c_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "C",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+
+```{r}
+uinvite_pl_stats$ci_lower <- uinvite_pl_stats$Estimate - 1.96*uinvite_pl_stats$`Std. Error`
+uinvite_pl_stats$ci_upper <- uinvite_pl_stats$Estimate + 1.96*uinvite_pl_stats$`Std. Error`
+uinvite_pl_stats <- uinvite_pl_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(uinvite_pl_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- uinvite_pl_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "P_2",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+
+```{r}
+uinvite_ed_stats$ci_lower <- uinvite_ed_stats$Estimate - 1.96*uinvite_ed_stats$`Std. Error`
+uinvite_ed_stats$ci_upper <- uinvite_ed_stats$Estimate + 1.96*uinvite_ed_stats$`Std. Error`
+uinvite_ed_stats <- uinvite_ed_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(uinvite_ed_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- uinvite_ed_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "D",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+
+```{r}
+uinvite_d_stats$ci_lower <- uinvite_d_stats$Estimate - 1.96*uinvite_d_stats$`Std. Error`
+uinvite_d_stats$ci_upper <- uinvite_d_stats$Estimate + 1.96*uinvite_d_stats$`Std. Error`
+uinvite_d_stats <- uinvite_d_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(uinvite_d_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- uinvite_d_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "<k>",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+
+```{r}
+esn_c_stats$ci_lower <- esn_c_stats$Estimate - 1.96*esn_c_stats$`Std. Error`
+esn_c_stats$ci_upper <- esn_c_stats$Estimate + 1.96*esn_c_stats$`Std. Error`
+esn_c_stats <- esn_c_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(esn_c_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- esn_c_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "C",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+```{r}
+esn_pl_stats$ci_lower <- esn_pl_stats$Estimate - 1.96*esn_pl_stats$`Std. Error`
+esn_pl_stats$ci_upper <- esn_pl_stats$Estimate + 1.96*esn_pl_stats$`Std. Error`
+esn_pl_stats <- esn_pl_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(esn_pl_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- esn_pl_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "P_2",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+
+
+```{r}
+esn_ed_stats$ci_lower <- esn_ed_stats$Estimate - 1.96*esn_ed_stats$`Std. Error`
+esn_ed_stats$ci_upper <- esn_ed_stats$Estimate + 1.96*esn_ed_stats$`Std. Error`
+esn_ed_stats <- esn_ed_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(esn_ed_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- esn_ed_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "D",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+
+
+```{r}
+esn_d_stats$ci_lower <- esn_d_stats$Estimate - 1.96*esn_d_stats$`Std. Error`
+esn_d_stats$ci_upper <- esn_d_stats$Estimate + 1.96*esn_d_stats$`Std. Error`
+esn_d_stats <- esn_d_stats %>%
+  mutate(color = ifelse(`Pr(>|t|)` < 0.05, "purple", "black"))
+
+x <- rownames(esn_d_stats)
+x <- x[x != "(Intercept)"]
+
+to_plot <- esn_d_stats[x,]
+
+x <- factor(x, levels=x)
+x <- fct_rev(x)
+
+plot1 <- ggplot(to_plot, aes(x = Estimate, y = x, xmin = ci_lower, xmax = ci_upper, color=color)) +
+  geom_pointrange(size = 0.5) +
+  scale_color_manual(values = c("purple"="purple", "black"="black")) +
+  scale_shape_manual(values = c(19)) +
+  labs(title = "<k>",
+       x = "Estimate",
+       y = "Element") +
+  theme_minimal() +
+  theme(legend.position = "none", aspect.ratio=4) +
+  geom_vline(xintercept = 0, linetype = "dashed")
+
+plot1
+```
+
+
+
+ 
+ 
