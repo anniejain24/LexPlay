@@ -7,5 +7,5 @@ In this study, a semantic fluency task was performed, testing the categories: "a
 
 Participants 1-6, 16, 17, 27, and 39 have missing/incomplete data, so are generally excluded from analyses in the preprocessing steps. Participants 33 and 34 are excluded from analyses because they each have one list with no utterances, but there is an option to retain these participants in the code for loading the data. 
 
-Simplified fluency lists have already been preprocessed and pos tagged, with all non-nouns removed. Non-simplified lists are also provided.
+Simplified fluency lists have already been preprocessed and pos tagged, with all non-nouns removed. Non-simplified lists are also provided, combined by category or separately for each participant.
 
