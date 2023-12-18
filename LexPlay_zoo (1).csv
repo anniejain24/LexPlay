@@ -1,0 +1,940 @@
+,id,item,category_id,category,round,listnum
+12,7,giraffe,2,zoo,1,1
+13,7,lizard,2,zoo,1,1
+14,7,tiger,2,zoo,1,1
+15,7,lion,2,zoo,1,1
+16,7,leopard,2,zoo,1,1
+17,7,cheetah,2,zoo,1,1
+18,7,snake,2,zoo,1,1
+19,7,iguanodon,2,zoo,1,1
+20,7,kangaroo,2,zoo,1,1
+21,7,turkey,2,zoo,1,1
+22,7,chicken,2,zoo,1,1
+23,7,monkeys,2,zoo,1,1
+24,7,Bears,2,zoo,1,1
+25,7,Bats,2,zoo,1,1
+26,7,Geckos,2,zoo,1,1
+27,7,Rattlesnake,2,zoo,1,1
+28,7,king,2,zoo,1,1
+29,7,cobra,2,zoo,1,1
+30,7,Leopard,2,zoo,1,1
+101,7,komodo dragon,2,zoo,3,2
+102,7,bat,2,zoo,3,2
+103,7,crocodile,2,zoo,3,2
+104,7,snake,2,zoo,3,2
+105,7,cheetah,2,zoo,3,2
+106,7,leopard,2,zoo,3,2
+107,7,tiger,2,zoo,3,2
+108,7,lion,2,zoo,3,2
+109,7,flamingo,2,zoo,3,2
+110,7,gopher,2,zoo,3,2
+111,7,turtle,2,zoo,3,2
+112,7,bunny,2,zoo,3,2
+113,7,Dormouse,2,zoo,3,2
+114,7,rat,2,zoo,3,2
+115,7,beaver,2,zoo,3,2
+116,7,coyote,2,zoo,3,2
+117,7,fox,2,zoo,3,2
+46,8,Sharks,2,zoo,2,3
+47,8,Elephants,2,zoo,2,3
+48,8,Zebras,2,zoo,2,3
+49,8,turtle,2,zoo,2,3
+50,8,bunny,2,zoo,2,3
+51,8,Yeah,2,zoo,2,3
+52,8,Horse,2,zoo,2,3
+53,8,Crocodiles,2,zoo,2,3
+54,8,Seals,2,zoo,2,3
+55,8,Paper towels,2,zoo,2,3
+56,8,paper towels,2,zoo,2,3
+57,8,Food,2,zoo,2,3
+58,8,guinea pigs,2,zoo,2,3
+59,8,good job,2,zoo,2,3
+87,8,Zebras,2,zoo,4,4
+88,8,Turtles,2,zoo,4,4
+89,8,Seals,2,zoo,4,4
+90,8,Crocodiles,2,zoo,4,4
+91,8,Lions,2,zoo,4,4
+92,8,Tigers,2,zoo,4,4
+93,8,Zebras,2,zoo,4,4
+94,8,Elephant,2,zoo,4,4
+95,8,Fish,2,zoo,4,4
+96,8,Turtle,2,zoo,4,4
+97,8,Fox,2,zoo,4,4
+98,8,[unclear],2,zoo,4,4
+49,9,Alligator,2,zoo,2,5
+50,9,pig,2,zoo,2,5
+51,9,peacock,2,zoo,2,5
+52,9,crocodile,2,zoo,2,5
+53,9,swine,2,zoo,2,5
+54,9,parrot,2,zoo,2,5
+55,9,hummingbird,2,zoo,2,5
+56,9,goat,2,zoo,2,5
+57,9,sheep,2,zoo,2,5
+58,9,monkey,2,zoo,2,5
+59,9,zoo,2,zoo,2,5
+60,9,monkey,2,zoo,2,5
+61,9,parrot,2,zoo,2,5
+104,9,Sheep,4,zoo,4,6
+105,9,Deer,4,zoo,4,6
+106,9,pig,4,zoo,4,6
+107,9,swine,4,zoo,4,6
+108,9,warthog,4,zoo,4,6
+109,9,alligator,4,zoo,4,6
+110,9,crocodile,4,zoo,4,6
+111,9,monkey,4,zoo,4,6
+112,9,peacock,4,zoo,4,6
+113,9,parrot,4,zoo,4,6
+114,9,Birdie,4,zoo,4,6
+115,9,Hummingbird,4,zoo,4,6
+116,9,chicken,4,zoo,4,6
+117,9,panda,4,zoo,4,6
+118,9,birdie,4,zoo,4,6
+25,10,monkey,2,zoo,2,7
+26,10,zoo,2,zoo,2,7
+27,10,elephant,2,zoo,2,7
+28,10,cheetah,2,zoo,2,7
+29,10,tiger,2,zoo,2,7
+30,10,lion,2,zoo,2,7
+31,10,alligator,2,zoo,2,7
+32,10,fox,2,zoo,2,7
+33,10,chicken,2,zoo,2,7
+34,10,crocodile,2,zoo,2,7
+35,10,fish,2,zoo,2,7
+36,10,Good,2,zoo,2,7
+89,10,crocodiles,2,zoo,4,8
+90,10,monkeys,2,zoo,4,8
+91,10,alligator,2,zoo,4,8
+92,10,horse,2,zoo,4,8
+93,10,guinea,2,zoo,4,8
+94,10,pig,2,zoo,4,8
+95,10,monkey,2,zoo,4,8
+96,10,chicken,2,zoo,4,8
+45,11,Nature place,2,zoo,2,9
+46,11,polar bear,2,zoo,2,9
+47,11,penguins,2,zoo,2,9
+48,11,giraffe,2,zoo,2,9
+49,11,chickens,2,zoo,2,9
+50,11,cow,2,zoo,2,9
+51,11,monkey,2,zoo,2,9
+52,11,Moose,2,zoo,2,9
+53,11,Fox,2,zoo,2,9
+54,11,flamingo,2,zoo,2,9
+55,11,Elephant,2,zoo,2,9
+56,11,leopard,2,zoo,2,9
+57,11,Lion,2,zoo,2,9
+58,11,Cheetah,2,zoo,2,9
+59,11,Fish,2,zoo,2,9
+60,11,goldfish,2,zoo,2,9
+61,11,Salmon,2,zoo,2,9
+104,11,Birds,2,zoo,4,10
+105,11,flamingo,2,zoo,4,10
+106,11,building,2,zoo,4,10
+107,11,water,2,zoo,4,10
+108,11,post,2,zoo,4,10
+109,11,cars,2,zoo,4,10
+110,11,parking garage,2,zoo,4,10
+111,11,parking lot,2,zoo,4,10
+112,11,trees,2,zoo,4,10
+113,11,ice stuff,2,zoo,4,10
+114,11,polar bears,2,zoo,4,10
+115,11,penguins,2,zoo,4,10
+116,11,lions,2,zoo,4,10
+117,11,leopards,2,zoo,4,10
+118,11,flamingo,2,zoo,4,10
+119,11,elephant,2,zoo,4,10
+120,11,blue sky,2,zoo,4,10
+121,11,Clouds,2,zoo,4,10
+122,11,Leaves,2,zoo,4,10
+123,11,Sidewalk,2,zoo,4,10
+124,11,Cages,2,zoo,4,10
+125,11,Eyes,2,zoo,4,10
+126,11,Arms,2,zoo,4,10
+127,11,Giraffe,2,zoo,4,10
+128,11,tree trunk,2,zoo,4,10
+18,12,Monkey,2,zoo,2,11
+19,12,Giraffe,2,zoo,2,11
+20,12,Good,2,zoo,2,11
+21,12,Elephant,2,zoo,2,11
+22,12,Alligator,2,zoo,2,11
+61,12,Giraffe,4,zoo,4,12
+62,12,elephant,4,zoo,4,12
+63,12,monkey,4,zoo,4,12
+64,12,ostrich,4,zoo,4,12
+65,12,Elephant,4,zoo,4,12
+22,13,zebra toys,4,zoo,1,13
+23,13,Giraffe toys,4,zoo,1,13
+24,13,lion toys,4,zoo,1,13
+25,13,tiger toys,4,zoo,1,13
+26,13,elephant toys,4,zoo,1,13
+27,13,Monkey toys,4,zoo,1,13
+28,13,monkey food,4,zoo,1,13
+29,13,zebras,4,zoo,1,13
+30,13,zoo constructor,4,zoo,1,13
+31,13,officer,4,zoo,1,13
+32,13,trees,4,zoo,1,13
+33,13,grass,4,zoo,1,13
+91,13,Lion,2,zoo,4,14
+92,13,giraffes,2,zoo,4,14
+93,13,Lion,2,zoo,4,14
+94,13,zebras,2,zoo,4,14
+95,13,Jaguars,2,zoo,4,14
+96,13,Monkeys,2,zoo,4,14
+97,13,Jaguars,2,zoo,4,14
+98,13,jaguars,2,zoo,4,14
+99,13,Cheetahs,2,zoo,4,14
+100,13,Monkeys,2,zoo,4,14
+101,13,Giraffes,2,zoo,4,14
+6,14,Lions,2,zoo,1,15
+7,14,Tigers,2,zoo,1,15
+8,14,Elephants,2,zoo,1,15
+9,14,Monkeys,2,zoo,1,15
+10,14,Giraffes,2,zoo,1,15
+11,14,Polar bears,2,zoo,1,15
+12,14,Penguins,2,zoo,1,15
+13,14,Cheetahs,2,zoo,1,15
+14,14,Jaguars,2,zoo,1,15
+15,14,Flamingos,2,zoo,1,15
+16,14,chimpanzee,2,zoo,1,15
+17,14,Parrot,2,zoo,1,15
+94,14,lions,2,zoo,3,16
+95,14,tigers,2,zoo,3,16
+96,14,flamingos,2,zoo,3,16
+97,14,monkeys,2,zoo,3,16
+98,14,chimpanzee,2,zoo,3,16
+99,14,giraffes,2,zoo,3,16
+100,14,polar bears,2,zoo,3,16
+101,14,penguins,2,zoo,3,16
+102,14,fox,2,zoo,3,16
+103,14,crocodile,2,zoo,3,16
+104,14,alligator,2,zoo,3,16
+105,14,bird,2,zoo,3,16
+106,14,parrot,2,zoo,3,16
+107,14,dog,2,zoo,3,16
+108,14,dog,2,zoo,3,16
+38,15,Dogs,2,zoo,2,17
+39,15,Cats,2,zoo,2,17
+40,15,Lions,2,zoo,2,17
+41,15,Tigers,2,zoo,2,17
+42,15,Farm animals,2,zoo,2,17
+43,15,cows,2,zoo,2,17
+44,15,Pigs,2,zoo,2,17
+45,15,Horses,2,zoo,2,17
+46,15,Sheep,2,zoo,2,17
+47,15,Bulls,2,zoo,2,17
+48,15,chimpanzees,2,zoo,2,17
+49,15,Monkeys,2,zoo,2,17
+50,15,Monkeys,2,zoo,2,17
+51,15,[unclear],2,zoo,2,17
+52,15,[unclear],2,zoo,2,17
+53,15,Spiders,2,zoo,2,17
+54,15,Tarantulas,2,zoo,2,17
+55,15,Snakes,2,zoo,2,17
+56,15,[unclear],2,zoo,2,17
+143,15,tarantulas,2,zoo,4,18
+144,15,Spiders,2,zoo,4,18
+145,15,Snakes,2,zoo,4,18
+146,15,Sharks,2,zoo,4,18
+147,15,Orcas,2,zoo,4,18
+148,15,Deer,2,zoo,4,18
+149,15,Sheep,2,zoo,4,18
+150,15,Cow,2,zoo,4,18
+151,15,Parrot,2,zoo,4,18
+152,15,arctic fox,2,zoo,4,18
+153,15,polar bear,2,zoo,4,18
+154,15,Fish,2,zoo,4,18
+155,15,Crab,2,zoo,4,18
+156,15,Jellyfish,2,zoo,4,18
+157,15,Bamboo sharks,2,zoo,4,18
+158,15,epaulette sharks,2,zoo,4,18
+159,15,Pigs,2,zoo,4,18
+54,18,Zebra,2,zoo,2,19
+55,18,Skunk,2,zoo,2,19
+56,18,Hippo,2,zoo,2,19
+57,18,Rhino,2,zoo,2,19
+58,18,Monkey,2,zoo,2,19
+59,18,Gorilla,2,zoo,2,19
+60,18,Chimpanzee,2,zoo,2,19
+61,18,Zebra,2,zoo,2,19
+62,18,Lizards,2,zoo,2,19
+63,18,Red butt monkeys,2,zoo,2,19
+64,18,those monkeys with red butt,2,zoo,2,19
+102,18,koala,2,zoo,4,20
+103,18,Panda,2,zoo,4,20
+104,18,Hippo,2,zoo,4,20
+105,18,Chimpanzee,2,zoo,4,20
+106,18,Gorilla,2,zoo,4,20
+107,18,Monkey,2,zoo,4,20
+108,18,Red butt monkey,2,zoo,4,20
+109,18,monkey,2,zoo,4,20
+110,18,[unclear],2,zoo,4,20
+111,18,Horses,2,zoo,4,20
+112,18,Zebras,2,zoo,4,20
+113,18,Ponies,2,zoo,4,20
+114,18,chimpanzees,2,zoo,4,20
+115,18,Donkey,2,zoo,4,20
+116,18,food,2,zoo,4,20
+54,19,zebra,2,zoo,2,21
+55,19,rhino,2,zoo,2,21
+56,19,polar bear,2,zoo,2,21
+57,19,monkey,2,zoo,2,21
+58,19,gorilla,2,zoo,2,21
+59,19,lion,2,zoo,2,21
+60,19,tiger,2,zoo,2,21
+61,19,leopard,2,zoo,2,21
+62,19,panther,2,zoo,2,21
+63,19,penguin,2,zoo,2,21
+64,19,Fish,2,zoo,2,21
+65,19,Shark,2,zoo,2,21
+66,19,ring-tailed lemur,2,zoo,2,21
+67,19,normal lemur,2,zoo,2,21
+68,19,baby penguin,2,zoo,2,21
+121,19,zebra,2,zoo,4,22
+122,19,rhino,2,zoo,4,22
+123,19,tiger,2,zoo,4,22
+124,19,lion,2,zoo,4,22
+125,19,panther,2,zoo,4,22
+126,19,jaguar,2,zoo,4,22
+127,19,leopard,2,zoo,4,22
+128,19,cheetah,2,zoo,4,22
+129,19,naked mole rats,2,zoo,4,22
+130,19,fish,2,zoo,4,22
+131,19,penguin,2,zoo,4,22
+132,19,baby penguin,2,zoo,4,22
+133,19,polar bear,2,zoo,4,22
+134,19,ladybug,2,zoo,4,22
+135,19,grasshopper,2,zoo,4,22
+136,19,armadillo,2,zoo,4,22
+27,20,elephant toy,2,zoo,2,23
+28,20,tiger,2,zoo,2,23
+29,20,kids,2,zoo,2,23
+30,20,dinosaur,2,zoo,2,23
+31,20,T-rex,2,zoo,2,23
+32,20,raptor,2,zoo,2,23
+33,20,spider,2,zoo,2,23
+34,20,cats,2,zoo,2,23
+35,20,EMS,2,zoo,2,23
+36,20,toy,2,zoo,2,23
+37,20,wall,2,zoo,2,23
+38,20,dragon toy,2,zoo,2,23
+39,20,car,2,zoo,2,23
+40,20,monster truck,2,zoo,2,23
+41,20,monster car,2,zoo,2,23
+75,20,go,2,zoo,4,24
+76,20,Zebra,2,zoo,4,24
+77,20,Gorilla,2,zoo,4,24
+78,20,Elephant,2,zoo,4,24
+79,20,Kitty,2,zoo,4,24
+80,20,Doggy,2,zoo,4,24
+81,20,tinier kitty,2,zoo,4,24
+82,20,Owl,2,zoo,4,24
+83,20,Tiger,2,zoo,4,24
+84,20,Cheetah,2,zoo,4,24
+85,20,Elephant,2,zoo,4,24
+86,20,giant toothed elephant,2,zoo,4,24
+87,20,hedgehog,2,zoo,4,24
+88,20,sonic the hedgehog,2,zoo,4,24
+22,21,horse,2,zoo,1,25
+23,21,tiger,2,zoo,1,25
+24,21,zebra,2,zoo,1,25
+25,21,timer,2,zoo,1,25
+26,21,ball,2,zoo,1,25
+27,21,hand,2,zoo,1,25
+49,21,zebra,2,zoo,3,26
+50,21,zebra,2,zoo,3,26
+51,21,tiger,2,zoo,3,26
+52,21,Pizza,2,zoo,3,26
+53,21,vegetable,2,zoo,3,26
+54,21,vegetables,2,zoo,3,26
+55,21,zoo,2,zoo,3,26
+56,21,Carrots,2,zoo,3,26
+57,21,rabbit,2,zoo,3,26
+58,21,zebra,2,zoo,3,26
+59,21,hands for the animals,2,zoo,3,26
+60,21,a tummy for the animals,2,zoo,3,26
+61,21,feet for the animals,2,zoo,3,26
+62,21,Some carrots,2,zoo,3,26
+15,22,monkeys,2,zoo,1,27
+16,22,zebras,2,zoo,1,27
+17,22,lions,2,zoo,1,27
+18,22,gorillas,2,zoo,1,27
+19,22,tigers,2,zoo,1,27
+20,22,bears,2,zoo,1,27
+21,22,penguins,2,zoo,1,27
+22,22,pandas,2,zoo,1,27
+23,22,horses,2,zoo,1,27
+24,22,chimpanzees,2,zoo,1,27
+25,22,cheetahs,2,zoo,1,27
+87,22,Monkey,2,zoo,3,28
+88,22,gorilla,2,zoo,3,28
+89,22,chimpanzee,2,zoo,3,28
+90,22,zebra,2,zoo,3,28
+91,22,horse,2,zoo,3,28
+92,22,red panda,2,zoo,3,28
+93,22,panda,2,zoo,3,28
+94,22,elephant,2,zoo,3,28
+95,22,giraffe,2,zoo,3,28
+96,22,eagle,2,zoo,3,28
+23,23,Zebra,2,zoo,1,29
+24,23,Lion,2,zoo,1,29
+25,23,Giraffe,2,zoo,1,29
+26,23,Elephant,2,zoo,1,29
+27,23,alligator,2,zoo,1,29
+28,23,turtle,2,zoo,1,29
+29,23,penguin,2,zoo,1,29
+58,23,Alligator,2,zoo,3,30
+59,23,Penguin,2,zoo,3,30
+60,23,Turtle,2,zoo,3,30
+61,23,people with their phones,2,zoo,3,30
+62,23,People with their purses,2,zoo,3,30
+63,23,carrots,2,zoo,3,30
+64,23,kids,2,zoo,3,30
+65,23,lillies,2,zoo,3,30
+66,23,people wearing glasses,2,zoo,3,30
+67,23,alligator,2,zoo,3,30
+68,23,crocodile,2,zoo,3,30
+69,23,elephant,2,zoo,3,30
+21,24,Dog,2,zoo,1,31
+22,24,giraffe,2,zoo,1,31
+23,24,lion,2,zoo,1,31
+24,24,monkey,2,zoo,1,31
+25,24,bonobo,2,zoo,1,31
+26,24,red fox,2,zoo,1,31
+27,24,panda,2,zoo,1,31
+28,24,red panda,2,zoo,1,31
+29,24,frog,2,zoo,1,31
+30,24,snake,2,zoo,1,31
+31,24,lizard,2,zoo,1,31
+32,24,fish,2,zoo,1,31
+33,24,chimpanzee,2,zoo,1,31
+34,24,tiger,2,zoo,1,31
+105,24,dog,2,zoo,3,32
+106,24,cat,2,zoo,3,32
+107,24,logo,2,zoo,3,32
+108,24,Pineapple,2,zoo,3,32
+109,24,zebra,2,zoo,3,32
+110,24,antelope,2,zoo,3,32
+111,24,jaguar,2,zoo,3,32
+112,24,leopard,2,zoo,3,32
+113,24,Dog,2,zoo,3,32
+114,24,lizard,2,zoo,3,32
+115,24,snake,2,zoo,3,32
+16,25,zoo,2,zoo,2,33
+17,25,elephant,2,zoo,2,33
+18,25,giraffes,2,zoo,2,33
+19,25,buffalo,2,zoo,2,33
+20,25,zoo,2,zoo,2,33
+21,25,zebra,2,zoo,2,33
+32,25,sea penguins,2,zoo,4,34
+33,26,Monkey,2,zoo,2,35
+34,26,monkeys,2,zoo,2,35
+35,26,Gorilla,2,zoo,2,35
+36,26,silver back gorilla,2,zoo,2,35
+37,26,silver,2,zoo,2,35
+38,26,a different kind of species I forgot what it's called,2,zoo,2,35
+39,26,cricket,2,zoo,2,35
+60,26,Cheetah,2,zoo,4,36
+61,26,Lion,2,zoo,4,36
+62,26,Koala,2,zoo,4,36
+63,26,werewolf,2,zoo,4,36
+64,26,Lion,2,zoo,4,36
+65,26,cub,2,zoo,4,36
+66,26,spiders,2,zoo,4,36
+67,26,a kind of bug,2,zoo,4,36
+68,26,flies,2,zoo,4,36
+38,28,Zebra,2,zoo,2,37
+39,28,Giraffe,2,zoo,2,37
+40,28,wild animals,2,zoo,2,37
+41,28,parrot,2,zoo,2,37
+42,28,Bat,2,zoo,2,37
+43,28,Elephant,2,zoo,2,37
+44,28,Monkey,2,zoo,2,37
+45,28,chimpanzee,2,zoo,2,37
+46,28,plum,2,zoo,2,37
+47,28,monkey,2,zoo,2,37
+48,28,ape,2,zoo,2,37
+49,28,orangutan,2,zoo,2,37
+68,28,[unclear],2,zoo,4,38
+69,28,Parents,2,zoo,4,38
+70,28,Toucans,2,zoo,4,38
+71,28,Snake,2,zoo,4,38
+44,29,Animals,2,zoo,2,39
+45,29,popsicles,2,zoo,2,39
+46,29,food,2,zoo,2,39
+47,29,panda,2,zoo,2,39
+48,29,tiger,2,zoo,2,39
+49,29,lion,2,zoo,2,39
+50,29,zebra,2,zoo,2,39
+51,29,giraffe,2,zoo,2,39
+52,29,elephant,2,zoo,2,39
+53,29,grass,2,zoo,2,39
+54,29,popcorn,2,zoo,2,39
+55,29,Cotton candy,2,zoo,2,39
+56,29,gorilla,2,zoo,2,39
+57,29,bunny,2,zoo,2,39
+58,29,horse,2,zoo,2,39
+59,29,pig,2,zoo,2,39
+60,29,monkey,2,zoo,2,39
+117,29,Hippo,2,zoo,4,40
+118,29,Penguin,2,zoo,4,40
+119,29,Turtle,2,zoo,4,40
+120,29,shark,2,zoo,4,40
+121,29,hammerhead shark,2,zoo,4,40
+122,29,giraffe,2,zoo,4,40
+123,29,zebra,2,zoo,4,40
+124,29,horse,2,zoo,4,40
+125,29,panda,2,zoo,4,40
+126,29,Tiger,2,zoo,4,40
+127,29,Clown,2,zoo,4,40
+128,29,hot dog stand,2,zoo,4,40
+129,29,zookeeper,2,zoo,4,40
+130,29,Popsicle,2,zoo,4,40
+131,29,baby sea turtles,2,zoo,4,40
+26,30,Rhino,2,zoo,1,41
+27,30,tiger,2,zoo,1,41
+28,30,panda,2,zoo,1,41
+29,30,Red panda,2,zoo,1,41
+30,30,Flamingo,2,zoo,1,41
+31,30,Zookeeper,2,zoo,1,41
+32,30,Garbage,2,zoo,1,41
+33,30,Penguin,2,zoo,1,41
+34,30,Snake,2,zoo,1,41
+35,30,Platypus,2,zoo,1,41
+36,30,Turtles,2,zoo,1,41
+37,30,Monkeys,2,zoo,1,41
+65,30,Tiger,2,zoo,3,42
+66,30,flamingo,2,zoo,3,42
+67,30,turtle,2,zoo,3,42
+68,30,tortoise,2,zoo,3,42
+69,30,panda,2,zoo,3,42
+70,30,koala,2,zoo,3,42
+71,30,flamingo,2,zoo,3,42
+72,30,Rhino,2,zoo,3,42
+73,30,monkey,2,zoo,3,42
+74,30,turtle,2,zoo,3,42
+75,30,ant,2,zoo,3,42
+76,30,garbage,2,zoo,3,42
+77,30,cages,2,zoo,3,42
+78,30,zookeeper,2,zoo,3,42
+79,30,flamingo,2,zoo,3,42
+80,30,penguin,2,zoo,3,42
+11,31,Zebra,2,zoo,1,43
+12,31,monkey,2,zoo,1,43
+13,31,parrot,2,zoo,1,43
+14,31,bird,2,zoo,1,43
+15,31,crocodile,2,zoo,1,43
+16,31,tiger,2,zoo,1,43
+17,31,cheetah,2,zoo,1,43
+18,31,bunny,2,zoo,1,43
+19,31,turtle,2,zoo,1,43
+83,31,Bunny,2,zoo,3,44
+84,31,Turtle,2,zoo,3,44
+85,31,Zebra,2,zoo,3,44
+86,31,Parrot,2,zoo,3,44
+87,31,bird,2,zoo,3,44
+88,31,Bunny,2,zoo,3,44
+89,31,frog,2,zoo,3,44
+90,31,goat,2,zoo,3,44
+91,31,snake,2,zoo,3,44
+92,31,big frog,2,zoo,3,44
+93,31,small bunny,2,zoo,3,44
+94,31,baby bird,2,zoo,3,44
+95,31,small parrot,2,zoo,3,44
+96,31,small frog,2,zoo,3,44
+15,32,Giraffe,2,zoo,1,45
+16,32,Elephant,2,zoo,1,45
+17,32,Lion,2,zoo,1,45
+18,32,Cheetah,2,zoo,1,45
+19,32,jaguars,2,zoo,1,45
+20,32,rhino,2,zoo,1,45
+21,32,Elephant,2,zoo,1,45
+22,32,Frogs,2,zoo,1,45
+23,32,Turtles,2,zoo,1,45
+24,32,Crocodiles,2,zoo,1,45
+25,32,Alligators,2,zoo,1,45
+26,32,penguin,2,zoo,1,45
+27,32,dolphin,2,zoo,1,45
+49,32,lion,2,zoo,3,46
+50,32,alligator,2,zoo,3,46
+51,32,crocodile,2,zoo,3,46
+52,32,fish,2,zoo,3,46
+53,32,alligator,2,zoo,3,46
+54,32,lion,2,zoo,3,46
+55,32,elephant,2,zoo,3,46
+56,32,tiger,2,zoo,3,46
+57,32,fish,2,zoo,3,46
+58,32,turtles,2,zoo,3,46
+59,32,frogs,2,zoo,3,46
+60,32,penguin,2,zoo,3,46
+61,32,lion,2,zoo,3,46
+62,32,cheetahs,2,zoo,3,46
+63,32,jaguars,2,zoo,3,46
+64,32,poisonous,2,zoo,3,46
+65,32,frog,2,zoo,3,46
+7,33,Zebra,2,zoo,1,47
+8,33,Lion,2,zoo,1,47
+9,33,Tiger,2,zoo,1,47
+10,33,Fish,2,zoo,1,47
+11,33,Anacondas,2,zoo,1,47
+12,33,Snakes,2,zoo,1,47
+13,33,Peacocks,2,zoo,1,47
+14,33,Monkeys,2,zoo,1,47
+3,34,animals,2,zoo,2,48
+4,34,Animals,2,zoo,2,48
+28,34,food,2,zoo,4,49
+29,34,fish tanks,2,zoo,4,49
+62,35,zebra,4,zoo,2,50
+63,35,lion,4,zoo,2,50
+64,35,tiger,4,zoo,2,50
+65,35,Turtle,4,zoo,2,50
+66,35,penguin,4,zoo,2,50
+67,35,dolphin,4,zoo,2,50
+68,35,elephant,4,zoo,2,50
+69,35,Types of cats,4,zoo,2,50
+70,35,zebras,4,zoo,2,50
+104,35,Penguin,2,zoo,4,51
+105,35,zebra,2,zoo,4,51
+106,35,lion,2,zoo,4,51
+107,35,birds,2,zoo,4,51
+108,35,penguins,2,zoo,4,51
+109,35,dolphins,2,zoo,4,51
+110,35,Dolphins,2,zoo,4,51
+111,35,Lions,2,zoo,4,51
+112,35,turkey vulture,2,zoo,4,51
+33,36,giraffe,2,zoo,2,52
+34,36,tiger,2,zoo,2,52
+35,36,lion,2,zoo,2,52
+36,36,monkey,2,zoo,2,52
+37,36,tiger,2,zoo,2,52
+38,36,wild pigs,2,zoo,2,52
+93,36,Giraffe,2,zoo,4,53
+94,36,Tiger,2,zoo,4,53
+95,36,lion,2,zoo,4,53
+96,36,monkey,2,zoo,4,53
+97,36,Wild pigs,2,zoo,4,53
+20,37,Snakes,2,zoo,1,54
+21,37,Giraffes,2,zoo,1,54
+22,37,Elephants,2,zoo,1,54
+23,37,Monkeys,2,zoo,1,54
+24,37,Birds,2,zoo,1,54
+25,37,Birds,2,zoo,1,54
+26,37,Hippo,2,zoo,1,54
+27,37,crocodiles,2,zoo,1,54
+28,37,flamingos,2,zoo,1,54
+29,37,Monkeys,2,zoo,1,54
+30,37,Turtles,2,zoo,1,54
+31,37,insects,2,zoo,1,54
+32,37,trees,2,zoo,1,54
+59,37,Zebra,2,zoo,3,55
+60,37,Monkey,2,zoo,3,55
+61,37,giraffe,2,zoo,3,55
+62,37,parrot,2,zoo,3,55
+63,37,Monkey,2,zoo,3,55
+64,37,Grass,2,zoo,3,55
+65,37,dolphins,2,zoo,3,55
+66,37,lions,2,zoo,3,55
+67,37,toucan,2,zoo,3,55
+4,38,zebras,2,zoo,1,56
+5,38,giraffes,2,zoo,1,56
+6,38,Lions,2,zoo,1,56
+7,38,Tigers,2,zoo,1,56
+8,38,[unclear],2,zoo,1,56
+9,38,snakes,2,zoo,1,56
+10,38,Alligators,2,zoo,1,56
+11,38,Crocodiles,2,zoo,1,56
+54,38,Tiger,2,zoo,3,57
+55,38,Country rat,2,zoo,3,57
+56,38,Dragon,2,zoo,3,57
+57,38,Snake,2,zoo,3,57
+58,38,[unclear],2,zoo,3,57
+59,38,Sharks,2,zoo,3,57
+60,38,blue whale,2,zoo,3,57
+61,38,orca,2,zoo,3,57
+32,40,zebra,2,zoo,1,58
+33,40,dog,2,zoo,1,58
+34,40,cat,2,zoo,1,58
+35,40,fish,2,zoo,1,58
+36,40,mouse,2,zoo,1,58
+37,40,cat,2,zoo,1,58
+38,40,puppy,2,zoo,1,58
+39,40,duck,2,zoo,1,58
+40,40,bird,2,zoo,1,58
+41,40,fish,2,zoo,1,58
+42,40,duckling,2,zoo,1,58
+43,40,turtle,2,zoo,1,58
+44,40,mouse,2,zoo,1,58
+45,40,horse,2,zoo,1,58
+46,40,bear,2,zoo,1,58
+47,40,polar bear,2,zoo,1,58
+48,40,zebra,2,zoo,1,58
+49,40,horse,2,zoo,1,58
+50,40,puppy,2,zoo,1,58
+86,40,zoo,2,zoo,3,59
+87,40,dog,2,zoo,3,59
+88,40,fish,2,zoo,3,59
+89,40,horse,2,zoo,3,59
+90,40,puppy,2,zoo,3,59
+91,40,cat,2,zoo,3,59
+92,40,zebra,2,zoo,3,59
+93,40,cat,2,zoo,3,59
+94,40,zebra,2,zoo,3,59
+95,40,puppy,2,zoo,3,59
+96,40,dog,2,zoo,3,59
+97,40,moose,2,zoo,3,59
+98,40,duck,2,zoo,3,59
+99,40,duckling,2,zoo,3,59
+100,40,horse,2,zoo,3,59
+101,40,moose,2,zoo,3,59
+49,41,bars,2,zoo,2,60
+50,41,monkey,2,zoo,2,60
+51,41,chimp,2,zoo,2,60
+52,41,lion,2,zoo,2,60
+53,41,tiger,2,zoo,2,60
+54,41,animal,2,zoo,2,60
+55,41,kangaroo,2,zoo,2,60
+56,41,rat,2,zoo,2,60
+57,41,Cat,2,zoo,2,60
+58,41,fruit,2,zoo,2,60
+59,41,zoo,2,zoo,2,60
+60,41,strawberry,2,zoo,2,60
+61,41,Cherry,2,zoo,2,60
+62,41,Zookeeper,2,zoo,2,60
+143,41,chimp,2,zoo,4,61
+144,41,rat,2,zoo,4,61
+145,41,ox,2,zoo,4,61
+146,41,Tiger,2,zoo,4,61
+147,41,Bunny,2,zoo,4,61
+148,41,Rabbit,2,zoo,4,61
+149,41,sheep,2,zoo,4,61
+150,41,goat,2,zoo,4,61
+151,41,Wolf,2,zoo,4,61
+152,41,fox,2,zoo,4,61
+153,41,Monkey,2,zoo,4,61
+154,41,chimp,2,zoo,4,61
+155,41,rooster,2,zoo,4,61
+156,41,Pig,2,zoo,4,61
+157,41,Dog,2,zoo,4,61
+158,41,Cat,2,zoo,4,61
+159,41,Kangaroo,2,zoo,4,61
+160,41,Apple,2,zoo,4,61
+161,41,zookeeper,2,zoo,4,61
+162,41,Apple,2,zoo,4,61
+163,41,Apple,2,zoo,4,61
+164,41,orange,2,zoo,4,61
+165,41,mango,2,zoo,4,61
+52,42,monkey,2,zoo,2,62
+53,42,gorilla,2,zoo,2,62
+54,42,penguin,2,zoo,2,62
+55,42,whale,2,zoo,2,62
+56,42,dolphin,2,zoo,2,62
+57,42,shark,2,zoo,2,62
+58,42,giraffe,2,zoo,2,62
+59,42,pig,2,zoo,2,62
+60,42,penguin,2,zoo,2,62
+61,42,chicken,2,zoo,2,62
+62,42,duck,2,zoo,2,62
+63,42,great white shark,2,zoo,2,62
+64,42,blue whale,2,zoo,2,62
+65,42,chicken,2,zoo,2,62
+66,42,duck,2,zoo,2,62
+91,42,elephant,2,zoo,4,63
+92,42,dolphin,2,zoo,4,63
+93,42,giraffe,2,zoo,4,63
+94,42,pig,2,zoo,4,63
+95,42,cow,2,zoo,4,63
+96,42,dolphin,2,zoo,4,63
+97,42,whale,2,zoo,4,63
+98,42,blue whale,2,zoo,4,63
+99,42,shark,2,zoo,4,63
+100,42,great white shark,2,zoo,4,63
+101,42,monkey,2,zoo,4,63
+102,42,gorilla,2,zoo,4,63
+103,42,duck,2,zoo,4,63
+104,42,chicken,2,zoo,4,63
+105,42,swan,2,zoo,4,63
+106,42,flamingo,2,zoo,4,63
+107,42,pig,2,zoo,4,63
+66,43,Gorillas,2,zoo,2,64
+67,43,animals,2,zoo,2,64
+68,43,beluga whales,2,zoo,2,64
+69,43,tigers,2,zoo,2,64
+70,43,lions,2,zoo,2,64
+71,43,snakes,2,zoo,2,64
+72,43,penguins,2,zoo,2,64
+73,43,polar bears,2,zoo,2,64
+74,43,Fish,2,zoo,2,64
+75,43,swans,2,zoo,2,64
+76,43,ducks,2,zoo,2,64
+77,43,Worms,2,zoo,2,64
+78,43,Ants,2,zoo,2,64
+79,43,bugs,2,zoo,2,64
+80,43,baby,2,zoo,2,64
+81,43,polar bears,2,zoo,2,64
+82,43,Spiders,2,zoo,2,64
+187,43,Snakes,2,zoo,4,65
+188,43,ants,2,zoo,4,65
+189,43,bugs,2,zoo,4,65
+190,43,insects,2,zoo,4,65
+191,43,gorillas,2,zoo,4,65
+192,43,baby penguins,2,zoo,4,65
+193,43,penguins,2,zoo,4,65
+194,43,Insects,2,zoo,4,65
+195,43,spiders,2,zoo,4,65
+196,43,polar bears,2,zoo,4,65
+197,43,baby polar bears,2,zoo,4,65
+198,43,swans,2,zoo,4,65
+199,43,ducks,2,zoo,4,65
+200,43,dogs,2,zoo,4,65
+201,43,people,2,zoo,4,65
+202,43,puppies,2,zoo,4,65
+203,43,flamingos,2,zoo,4,65
+204,43,Snakes,2,zoo,4,65
+205,43,beluga whales,2,zoo,4,65
+206,43,Fish,2,zoo,4,65
+207,43,ants,2,zoo,4,65
+208,43,humans,2,zoo,4,65
+22,44,giraffes,2,zoo,1,66
+23,44,Elephants,2,zoo,1,66
+24,44,Gorillas,2,zoo,1,66
+25,44,Penguins,2,zoo,1,66
+26,44,Ducks,2,zoo,1,66
+27,44,Monkeys,2,zoo,1,66
+28,44,Elephants,2,zoo,1,66
+29,44,Rhinos,2,zoo,1,66
+30,44,Goose,2,zoo,1,66
+31,44,Dogs,2,zoo,1,66
+32,44,Rats,2,zoo,1,66
+33,44,mice,2,zoo,1,66
+65,44,Elephants,2,zoo,3,67
+66,44,gorillas,2,zoo,3,67
+67,44,Apes,2,zoo,3,67
+68,44,Toucans,2,zoo,3,67
+69,44,Crocodiles,2,zoo,3,67
+70,44,Monkeys,2,zoo,3,67
+71,44,Moles,2,zoo,3,67
+72,44,Skunks,2,zoo,3,67
+73,44,Raccoons,2,zoo,3,67
+74,44,Cheetahs,2,zoo,3,67
+75,44,Lions,2,zoo,3,67
+76,44,Gorillas,2,zoo,3,67
+77,44,Alligators,2,zoo,3,67
+19,45,Monkey,2,zoo,1,68
+20,45,lion,2,zoo,1,68
+21,45,monkey,2,zoo,1,68
+22,45,lion,2,zoo,1,68
+23,45,bear,2,zoo,1,68
+24,45,zebra,2,zoo,1,68
+25,45,kangaroo,2,zoo,1,68
+26,45,penguins,2,zoo,1,68
+27,45,baboons,2,zoo,1,68
+28,45,gorillas,2,zoo,1,68
+29,45,grizzly bears,2,zoo,1,68
+30,45,pandas,2,zoo,1,68
+31,45,little cute bunnies,2,zoo,1,68
+32,45,squirrels,2,zoo,1,68
+121,45,Monkeys,2,zoo,3,69
+122,45,kangaroos,2,zoo,3,69
+123,45,leopards,2,zoo,3,69
+124,45,bears,2,zoo,3,69
+125,45,grizzly bears,2,zoo,3,69
+126,45,zebras,2,zoo,3,69
+127,45,bunnies,2,zoo,3,69
+128,45,squirrels,2,zoo,3,69
+23,46,Lion,2,zoo,1,70
+24,46,cat,2,zoo,1,70
+25,46,dog,2,zoo,1,70
+26,46,Penguin,2,zoo,1,70
+27,46,snake,2,zoo,1,70
+28,46,owl,2,zoo,1,70
+29,46,bird,2,zoo,1,70
+30,46,horse,2,zoo,1,70
+31,46,monkey,2,zoo,1,70
+32,46,pigeon,2,zoo,1,70
+33,46,eggs,2,zoo,1,70
+34,46,water,2,zoo,1,70
+35,46,animals,2,zoo,1,70
+54,46,bat,2,zoo,3,71
+55,46,dog,2,zoo,3,71
+56,46,snake,2,zoo,3,71
+57,46,owl,2,zoo,3,71
+58,46,penguin,2,zoo,3,71
+59,46,snake,2,zoo,3,71
+60,46,fish,2,zoo,3,71
+61,46,cats,2,zoo,3,71
+14,47,Tigers,2,zoo,1,72
+15,47,lions,2,zoo,1,72
+16,47,bears,2,zoo,1,72
+17,47,monkeys,2,zoo,1,72
+18,47,red pandas,2,zoo,1,72
+19,47,turtles,2,zoo,1,72
+20,47,giraffes,2,zoo,1,72
+21,47,chimpanzees,2,zoo,1,72
+22,47,parrots,2,zoo,1,72
+23,47,Birds,2,zoo,1,72
+24,47,playground,2,zoo,1,72
+25,47,place with italian ice,2,zoo,1,72
+26,47,lemon lime italian ice,2,zoo,1,72
+27,47,Bears,2,zoo,1,72
+28,47,Baby bears,2,zoo,1,72
+110,47,lions,2,zoo,3,73
+111,47,tigers,2,zoo,3,73
+112,47,bears,2,zoo,3,73
+113,47,baby bears,2,zoo,3,73
+114,47,giraffes,2,zoo,3,73
+115,47,baby giraffes,2,zoo,3,73
+116,47,turtles,2,zoo,3,73
+117,47,playground,2,zoo,3,73
+118,47,place with italian ice,2,zoo,3,73
+119,47,giraffe,2,zoo,3,73
+120,47,feeding place,2,zoo,3,73
+121,47,monkeys,2,zoo,3,73
+122,47,flamingoes,2,zoo,3,73
+123,47,parrots,2,zoo,3,73
+52,48,Penguins,2,zoo,2,74
+53,48,Horses,2,zoo,2,74
+54,48,Cow,2,zoo,2,74
+55,48,Giraffes,2,zoo,2,74
+56,48,hippos,2,zoo,2,74
+57,48,turtles,2,zoo,2,74
+58,48,elephants,2,zoo,2,74
+59,48,snakes,2,zoo,2,74
+60,48,frogs,2,zoo,2,74
+61,48,lizards,2,zoo,2,74
+78,48,Penguins,2,zoo,4,75
+79,48,starfish,2,zoo,4,75
+80,48,giraffes,2,zoo,4,75
+81,48,sharks,2,zoo,4,75
+82,48,turtles,2,zoo,4,75
+83,48,elephants,2,zoo,4,75
+84,48,giraffes,2,zoo,4,75
+85,48,horses,2,zoo,4,75
+86,48,cows,2,zoo,4,75
+87,48,snakes,2,zoo,4,75
+88,48,frogs,2,zoo,4,75
+89,48,turtles,2,zoo,4,75
+90,48,salamanders,2,zoo,4,75
+91,48,lizards,2,zoo,4,75
+92,48,fishes,2,zoo,4,75
+37,49,cheetah,2,zoo,2,76
+38,49,elephant,2,zoo,2,76
+39,49,lion,2,zoo,2,76
+40,49,turtles,2,zoo,2,76
+41,49,gazelle,2,zoo,2,76
+42,49,parrot,2,zoo,2,76
+43,49,penguin,2,zoo,2,76
+44,49,snake,2,zoo,2,76
+45,49,sea urchin,2,zoo,2,76
+46,49,sea cucumber,2,zoo,2,76
+47,49,stingray,2,zoo,2,76
+48,49,shark,2,zoo,2,76
+81,49,cat,2,zoo,4,77
+82,49,cheetah,2,zoo,4,77
+83,49,tiger,2,zoo,4,77
+84,49,turtle,2,zoo,4,77
+85,49,shark,2,zoo,4,77
+86,49,penguin,2,zoo,4,77
+87,49,jellyfish,2,zoo,4,77
+88,49,sea turtle,2,zoo,4,77
+89,49,ray,2,zoo,4,77
+90,49,halibut,2,zoo,4,77
+91,49,jellyfish,2,zoo,4,77
+92,49,krill,2,zoo,4,77

@@ -1,0 +1,1080 @@
+,id,item,category_id,category,round,listnum
+47,7,Apple,4,grocery,2,1
+48,7,orange,4,grocery,2,1
+49,7,carrot,4,grocery,2,1
+50,7,broccoli,4,grocery,2,1
+51,7,chicken,4,grocery,2,1
+52,7,jelly,4,grocery,2,1
+53,7,beans,4,grocery,2,1
+54,7,Orange,4,grocery,2,1
+55,7,clementine,4,grocery,2,1
+56,7,pineapple,4,grocery,2,1
+57,7,plum,4,grocery,2,1
+58,7,blueberry,4,grocery,2,1
+59,7,strawberry,4,grocery,2,1
+60,7,grapefruit,4,grocery,2,1
+61,7,plum,4,grocery,2,1
+62,7,Chicken taquitos,4,grocery,2,1
+63,7,root beer,4,grocery,2,1
+64,7,Soup,4,grocery,2,1
+65,7,Bubbly water,4,grocery,2,1
+143,7,Apple,4,grocery,4,2
+144,7,carrot,4,grocery,4,2
+145,7,pineapple,4,grocery,4,2
+146,7,grape,4,grocery,4,2
+147,7,chicken,4,grocery,4,2
+148,7,grapefruit,4,grocery,4,2
+149,7,apple,4,grocery,4,2
+150,7,pizza,4,grocery,4,2
+151,7,spaghetti,4,grocery,4,2
+152,7,chicken taquitos,4,grocery,4,2
+153,7,cabbage,4,grocery,4,2
+154,7,spinach,4,grocery,4,2
+155,7,carrot,4,grocery,4,2
+156,7,carrot pizza,4,grocery,4,2
+157,7,Watermelon,4,grocery,4,2
+158,7,blackberry,4,grocery,4,2
+159,7,blueberry,4,grocery,4,2
+160,7,raspberry,4,grocery,4,2
+161,7,pineapple,4,grocery,4,2
+25,8,Lettuce,4,grocery,1,3
+26,8,Pom poms,4,grocery,1,3
+27,8,poms,4,grocery,1,3
+28,8,Puzzle pieces,4,grocery,1,3
+29,8,salad,4,grocery,1,3
+30,8,Halloween stuff,4,grocery,1,3
+31,8,Groceries,4,grocery,1,3
+32,8,paper,4,grocery,1,3
+33,8,pump,4,grocery,1,3
+60,8,pickles,4,grocery,3,4
+61,8,Fish,4,grocery,3,4
+62,8,Chicken,4,grocery,3,4
+63,8,nuggets,4,grocery,3,4
+64,8,French fries,4,grocery,3,4
+65,8,Apples,4,grocery,3,4
+66,8,juice,4,grocery,3,4
+67,8,Goldfish,4,grocery,3,4
+68,8,Toys,4,grocery,3,4
+69,8,Costumes,4,grocery,3,4
+70,8,Groceries,4,grocery,3,4
+71,8,Salad,4,grocery,3,4
+72,8,Fish,4,grocery,3,4
+73,8,Turkey,4,grocery,3,4
+74,8,Salmon,4,grocery,3,4
+75,8,Beads,4,grocery,3,4
+76,8,Counters,4,grocery,3,4
+18,9,Fruit,4,grocery,1,5
+19,9,strawberries,4,grocery,1,5
+20,9,Mango,4,grocery,1,5
+21,9,Coconut,4,grocery,1,5
+22,9,cookies,4,grocery,1,5
+23,9,Cake,4,grocery,1,5
+24,9,hat,4,grocery,1,5
+25,9,Yeah,4,grocery,1,5
+26,9,chips,4,grocery,1,5
+27,9,pears,4,grocery,1,5
+28,9,Pears,4,grocery,1,5
+29,9,Kiwi,4,grocery,1,5
+62,9,Popcorn,4,grocery,3,6
+63,9,Hat,4,grocery,3,6
+64,9,Mango,4,grocery,3,6
+65,9,Kiwi,4,grocery,3,6
+66,9,Blueberries,4,grocery,3,6
+67,9,Coconut,4,grocery,3,6
+68,9,chips,4,grocery,3,6
+69,9,cookies,4,grocery,3,6
+70,9,Gingerbread,4,grocery,3,6
+71,9,houses,4,grocery,3,6
+72,9,Yogurt,4,grocery,3,6
+73,9,hat,4,grocery,3,6
+74,9,hat,4,grocery,3,6
+75,9,Shoes,4,grocery,3,6
+76,9,Toys,4,grocery,3,6
+77,9,Banana,4,grocery,3,6
+78,9,Blueberry,4,grocery,3,6
+79,9,Lemon,4,grocery,3,6
+80,9,Lime,4,grocery,3,6
+81,9,Onion,4,grocery,3,6
+82,9,Tomato,4,grocery,3,6
+83,9,Pumpkin,4,grocery,3,6
+84,9,Pumpkin pie,4,grocery,3,6
+12,10,many things,4,grocery,1,7
+13,10,Vegetable,4,grocery,1,7
+14,10,meat,4,grocery,1,7
+15,10,seafood,4,grocery,1,7
+16,10,tuna,4,grocery,1,7
+17,10,sandwich,4,grocery,1,7
+18,10,butter,4,grocery,1,7
+19,10,waffles,4,grocery,1,7
+20,10,yogurt,4,grocery,1,7
+21,10,orange,4,grocery,1,7
+22,10,juice,4,grocery,1,7
+23,10,Milk,4,grocery,1,7
+24,10,Chicken,4,grocery,1,7
+46,10,Chicken,4,grocery,3,8
+47,10,Rice,4,grocery,3,8
+48,10,Yogurt,4,grocery,3,8
+49,10,Steak,4,grocery,3,8
+50,10,pancakes,4,grocery,3,8
+51,10,Waffle,4,grocery,3,8
+52,10,bacon,4,grocery,3,8
+53,10,Eggs,4,grocery,3,8
+54,10,Cake,4,grocery,3,8
+55,10,veggies,4,grocery,3,8
+56,10,munchkins,4,grocery,3,8
+57,10,fruit,4,grocery,3,8
+58,10,paper towels,4,grocery,3,8
+59,10,chicken,4,grocery,3,8
+60,10,Biscuits,4,grocery,3,8
+61,10,Cheese,4,grocery,3,8
+0,11,Lettuce,4,grocery,1,9
+1,11,Broccoli,4,grocery,1,9
+2,11,Tomato,4,grocery,1,9
+3,11,Strawberry,4,grocery,1,9
+4,11,Bread,4,grocery,1,9
+5,11,Raisin bread,4,grocery,1,9
+6,11,Salmon,4,grocery,1,9
+7,11,Toys,4,grocery,1,9
+8,11,Hot wheel cars,4,grocery,1,9
+9,11,Drinks,4,grocery,1,9
+10,11,Broccoli,4,grocery,1,9
+11,11,Purple juice,4,grocery,1,9
+12,11,Strawberry juice,4,grocery,1,9
+13,11,Milk,4,grocery,1,9
+83,11,Salmon,4,grocery,3,10
+84,11,clothes,4,grocery,3,10
+85,11,fish,4,grocery,3,10
+86,11,milk,4,grocery,3,10
+87,11,yogurt,4,grocery,3,10
+88,11,hot,4,grocery,3,10
+89,11,chocolate,4,grocery,3,10
+90,11,drinks,4,grocery,3,10
+91,11,food,4,grocery,3,10
+92,11,salmon,4,grocery,3,10
+93,11,toys,4,grocery,3,10
+94,11,hot wheel cars,4,grocery,3,10
+95,11,kitchen stuff,4,grocery,3,10
+96,11,bathrooms,4,grocery,3,10
+97,11,showers,4,grocery,3,10
+98,11,sinks,4,grocery,3,10
+99,11,plants,4,grocery,3,10
+100,11,car,4,grocery,3,10
+101,11,toy cars,4,grocery,3,10
+102,11,real cars,4,grocery,3,10
+103,11,tools,4,grocery,3,10
+4,12,Egg,4,grocery,1,11
+5,12,Milk,4,grocery,1,11
+6,12,Candy,4,grocery,1,11
+7,12,Pool,4,grocery,1,11
+8,12,Toys,4,grocery,1,11
+9,12,Shoes,4,grocery,1,11
+10,12,clothes,4,grocery,1,11
+11,12,Lights,4,grocery,1,11
+12,12,Ice cream,4,grocery,1,11
+39,12,Lollipop,4,grocery,3,12
+40,12,Candy,4,grocery,3,12
+41,12,Ice cream,4,grocery,3,12
+42,12,Milk,4,grocery,3,12
+43,12,Egg,4,grocery,3,12
+44,12,Banana,4,grocery,3,12
+45,12,Apple,4,grocery,3,12
+46,12,shoes,4,grocery,3,12
+47,12,clothes,4,grocery,3,12
+48,12,toys,4,grocery,3,12
+50,13,pineapple,4,grocery,2,13
+51,13,cabbage,4,grocery,2,13
+52,13,corn,4,grocery,2,13
+53,13,Grocery bags,4,grocery,2,13
+54,13,broccoli,4,grocery,2,13
+55,13,carrot,4,grocery,2,13
+56,13,Peas,4,grocery,2,13
+57,13,green beans,4,grocery,2,13
+58,13,corn,4,grocery,2,13
+59,13,Pineapple,4,grocery,2,13
+60,13,cherries,4,grocery,2,13
+61,13,shop rite,4,grocery,3,14
+62,13,wendy's,4,grocery,3,14
+63,13,wawa,4,grocery,3,14
+64,13,Pineapple,4,grocery,3,14
+65,13,Broccoli,4,grocery,3,14
+66,13,Chicken,4,grocery,3,14
+67,13,stuff,4,grocery,3,14
+68,13,mommies,4,grocery,3,14
+69,13,Toys,4,grocery,3,14
+70,13,Peas,4,grocery,3,14
+71,13,Green beans,4,grocery,3,14
+72,13,Pineapple,4,grocery,3,14
+73,13,Cherries,4,grocery,3,14
+74,13,Watermelon,4,grocery,3,14
+75,13,Corn,4,grocery,3,14
+76,13,pineapple,4,grocery,3,14
+59,14,Apples,4,grocery,2,15
+60,14,Bananas,4,grocery,2,15
+61,14,Oranges,4,grocery,2,15
+62,14,tomatoes,4,grocery,2,15
+63,14,drinks,4,grocery,2,15
+64,14,Cereal,4,grocery,2,15
+65,14,Cheese,4,grocery,2,15
+66,14,Meat,4,grocery,2,15
+67,14,Steak,4,grocery,2,15
+68,14,Chicken,4,grocery,2,15
+69,14,Chips,4,grocery,2,15
+70,14,sauces,4,grocery,2,15
+71,14,Bananas,4,grocery,2,15
+72,14,pancakes,4,grocery,2,15
+73,14,Waffles,4,grocery,2,15
+74,14,Ice pops,4,grocery,2,15
+75,14,Ice cream,4,grocery,2,15
+109,14,apples,4,grocery,4,16
+110,14,bananas,4,grocery,4,16
+111,14,oranges,4,grocery,4,16
+112,14,peaches,4,grocery,4,16
+113,14,drinks,4,grocery,4,16
+114,14,salmon,4,grocery,4,16
+115,14,shrimp,4,grocery,4,16
+116,14,meat,4,grocery,4,16
+117,14,steak,4,grocery,4,16
+118,14,chicken,4,grocery,4,16
+119,14,ham,4,grocery,4,16
+120,14,cheese,4,grocery,4,16
+121,14,cereal,4,grocery,4,16
+122,14,ice pops,4,grocery,4,16
+123,14,ice cream,4,grocery,4,16
+124,14,Whipped cream,4,grocery,4,16
+125,14,cherries,4,grocery,4,16
+126,14,chips,4,grocery,4,16
+127,14,soda,4,grocery,4,16
+128,14,pancakes,4,grocery,4,16
+129,14,waffles,4,grocery,4,16
+130,14,cranberries,4,grocery,4,16
+131,14,raspberries,4,grocery,4,16
+132,14,blueberries,4,grocery,4,16
+133,14,blackberries,4,grocery,4,16
+0,15,Vegetables,4,grocery,1,17
+1,15,fruits,4,grocery,1,17
+2,15,pizza,4,grocery,1,17
+3,15,tools,4,grocery,1,17
+4,15,foods,4,grocery,1,17
+5,15,bananas,4,grocery,1,17
+6,15,sheets,4,grocery,1,17
+7,15,yarn,4,grocery,1,17
+8,15,broccoli,4,grocery,1,17
+9,15,carrots,4,grocery,1,17
+10,15,strawberries,4,grocery,1,17
+11,15,sweets,4,grocery,1,17
+12,15,chocolate,4,grocery,1,17
+13,15,ice cream,4,grocery,1,17
+14,15,mochis,4,grocery,1,17
+15,15,Walls,4,grocery,1,17
+16,15,Materials,4,grocery,1,17
+17,15,Wood,4,grocery,1,17
+96,15,Pets,4,grocery,3,18
+97,15,dogs,4,grocery,3,18
+98,15,cats,4,grocery,3,18
+99,15,lizards,4,grocery,3,18
+100,15,metal,4,grocery,3,18
+101,15,lights,4,grocery,3,18
+102,15,sirens,4,grocery,3,18
+103,15,signs,4,grocery,3,18
+104,15,doors,4,grocery,3,18
+105,15,cabinets,4,grocery,3,18
+106,15,furniture,4,grocery,3,18
+107,15,couches,4,grocery,3,18
+108,15,carpets,4,grocery,3,18
+109,15,jackets,4,grocery,3,18
+110,15,clothes,4,grocery,3,18
+111,15,games,4,grocery,3,18
+112,15,video games,4,grocery,3,18
+113,15,earrings,4,grocery,3,18
+114,15,face masks,4,grocery,3,18
+115,15,purse,4,grocery,3,18
+116,15,phone,4,grocery,3,18
+117,15,iPad,4,grocery,3,18
+118,15,Apple pen,4,grocery,3,18
+119,15,iPad,4,grocery,3,18
+120,15,box,4,grocery,3,18
+121,15,speakers,4,grocery,3,18
+122,15,speaker,4,grocery,3,18
+123,15,hanger,4,grocery,3,18
+124,15,harness,4,grocery,3,18
+23,18,Cereal,4,grocery,1,19
+24,18,Pasta,4,grocery,1,19
+25,18,Milk,4,grocery,1,19
+26,18,Cookies,4,grocery,1,19
+27,18,sample thingies,4,grocery,1,19
+28,18,Toys,4,grocery,1,19
+29,18,croissants,4,grocery,1,19
+30,18,Pizza,4,grocery,1,19
+31,18,oranges,4,grocery,1,19
+32,18,Apples,4,grocery,1,19
+33,18,Bananas,4,grocery,1,19
+34,18,Carrots,4,grocery,1,19
+65,18,Sandwich,4,grocery,3,20
+66,18,Pizza,4,grocery,3,20
+67,18,pastrami,4,grocery,3,20
+68,18,Pizza,4,grocery,3,20
+69,18,Sandwich,4,grocery,3,20
+70,18,Apples,4,grocery,3,20
+71,18,Bananas,4,grocery,3,20
+72,18,Carrots,4,grocery,3,20
+73,18,Grapes,4,grocery,3,20
+74,18,kiwi,4,grocery,3,20
+75,18,Avocado,4,grocery,3,20
+76,18,Onions,4,grocery,3,20
+77,18,pretzels,4,grocery,3,20
+78,18,toy lizards,4,grocery,3,20
+13,19,Apples,4,grocery,1,21
+14,19,bananas,4,grocery,1,21
+15,19,strawberries,4,grocery,1,21
+16,19,broccoli,4,grocery,1,21
+17,19,lettuce,4,grocery,1,21
+18,19,cheese,4,grocery,1,21
+19,19,yogurt,4,grocery,1,21
+20,19,Smartie,4,grocery,1,21
+21,19,Mangoes,4,grocery,1,21
+22,19,Pasta,4,grocery,1,21
+23,19,Ice cream,4,grocery,1,21
+24,19,Really good tomatoes,4,grocery,1,21
+86,19,broccoli,2,grocery,3,22
+87,19,ketchup,2,grocery,3,22
+88,19,tomatoes,2,grocery,3,22
+89,19,lettuce,2,grocery,3,22
+90,19,spinach,2,grocery,3,22
+91,19,blueberries,2,grocery,3,22
+92,19,raspberries,2,grocery,3,22
+93,19,blackberries,2,grocery,3,22
+94,19,strawberries,2,grocery,3,22
+95,19,apples,2,grocery,3,22
+96,19,bananas,2,grocery,3,22
+97,19,zucchini,2,grocery,3,22
+98,19,avocados,2,grocery,3,22
+99,19,tomatoes,2,grocery,3,22
+100,19,onions,2,grocery,3,22
+101,19,cheese,2,grocery,3,22
+102,19,yogurt,2,grocery,3,22
+7,20,Food,4,grocery,1,23
+8,20,Apples,4,grocery,1,23
+9,20,Carrots,4,grocery,1,23
+10,20,Kiwi,4,grocery,1,23
+11,20,Bananas,4,grocery,1,23
+12,20,Blueberries,4,grocery,1,23
+13,20,Raspberries,4,grocery,1,23
+14,20,Strawberries,4,grocery,1,23
+15,20,Kiwi,4,grocery,1,23
+58,20,Broccoli,4,grocery,3,24
+59,20,elephant,4,grocery,3,24
+60,20,Carrot,4,grocery,3,24
+61,20,Raspberry,4,grocery,3,24
+62,20,Strawberry,4,grocery,3,24
+63,20,Blueberry,4,grocery,3,24
+64,20,Banana,4,grocery,3,24
+65,20,Apple,4,grocery,3,24
+66,20,Orange,4,grocery,3,24
+36,21,chips,4,grocery,2,25
+37,21,Takis,4,grocery,2,25
+38,21,Rectangles,4,grocery,2,25
+39,21,Rectangles,4,grocery,2,25
+40,21,pizza,4,grocery,2,25
+41,21,cabbage,4,grocery,2,25
+42,21,sheep,4,grocery,2,25
+43,21,Sheep,4,grocery,2,25
+44,21,dog,4,grocery,2,25
+45,21,dog,4,grocery,2,25
+46,21,Yogurt,4,grocery,2,25
+47,21,Yogurt,4,grocery,2,25
+48,21,Pizza,4,grocery,2,25
+79,21,fish,4,grocery,4,26
+80,21,Colors,4,grocery,4,26
+81,21,blue,4,grocery,4,26
+82,21,breadstick,4,grocery,4,26
+83,21,Pizza,4,grocery,4,26
+84,21,Carrot,4,grocery,4,26
+85,21,Salad,4,grocery,4,26
+86,21,Hair,4,grocery,4,26
+87,21,People,4,grocery,4,26
+88,21,People fighting,4,grocery,4,26
+89,21,Glasses,4,grocery,4,26
+90,21,Computers,4,grocery,4,26
+91,21,fish tank,4,grocery,4,26
+92,21,[unclear],4,grocery,4,26
+59,22,Apples,4,grocery,2,27
+60,22,pears,4,grocery,2,27
+61,22,bananas,4,grocery,2,27
+62,22,ice cream,4,grocery,2,27
+63,22,chicken,4,grocery,2,27
+64,22,cheese,4,grocery,2,27
+65,22,Cucumbers,4,grocery,2,27
+66,22,Store baskets,4,grocery,2,27
+67,22,Pet food,4,grocery,2,27
+68,22,Beans,4,grocery,2,27
+69,22,Canned peaches,4,grocery,2,27
+70,22,normal peaches,4,grocery,2,27
+71,22,pasta,4,grocery,2,27
+72,22,mac and cheese,4,grocery,2,27
+73,22,pickles,4,grocery,2,27
+97,22,apples,4,grocery,4,28
+98,22,pickles,4,grocery,4,28
+99,22,pet food,4,grocery,4,28
+100,22,papaya,4,grocery,4,28
+101,22,bananas,4,grocery,4,28
+102,22,Pickles,4,grocery,4,28
+103,22,apples,4,grocery,4,28
+104,22,pomegranate,4,grocery,4,28
+105,22,Papaya,4,grocery,4,28
+106,22,papaya,4,grocery,4,28
+107,22,meat,4,grocery,4,28
+108,22,canned peaches,4,grocery,4,28
+109,22,peaches,4,grocery,4,28
+30,23,Chocolate,4,grocery,2,29
+31,23,Bananas,4,grocery,2,29
+32,23,Purses,4,grocery,2,29
+33,23,Shirts,4,grocery,2,29
+34,23,Paints,4,grocery,2,29
+35,23,Food,4,grocery,2,29
+36,23,Hats,4,grocery,2,29
+37,23,Pencils,4,grocery,2,29
+38,23,Computers,4,grocery,2,29
+39,23,iPads,4,grocery,2,29
+40,23,cups,4,grocery,2,29
+41,23,art,4,grocery,2,29
+42,23,Pens,4,grocery,2,29
+43,23,pencils,4,grocery,2,29
+44,23,Wigs,4,grocery,2,29
+45,23,Glasses,4,grocery,2,29
+46,23,Earrings,4,grocery,2,29
+47,23,Jewelry,4,grocery,2,29
+87,23,Glasses,2,grocery,4,30
+88,23,People,2,grocery,4,30
+89,23,People wearing glasses,2,grocery,4,30
+90,23,People wearing everything,2,grocery,4,30
+91,23,dresses,2,grocery,4,30
+92,23,Clothes,2,grocery,4,30
+93,23,purses,2,grocery,4,30
+94,23,iPad,2,grocery,4,30
+95,23,Computers,2,grocery,4,30
+96,23,Tissue,2,grocery,4,30
+97,23,Microphones,2,grocery,4,30
+98,23,Stickers,2,grocery,4,30
+99,23,Art,2,grocery,4,30
+100,23,Pencil,2,grocery,4,30
+101,23,Glitter,2,grocery,4,30
+102,23,Paper,2,grocery,4,30
+103,23,Everything,2,grocery,4,30
+104,23,People,2,grocery,4,30
+105,23,letter,2,grocery,4,30
+106,23,stickers,2,grocery,4,30
+107,23,Animal sticker,2,grocery,4,30
+53,24,Bananas,2,grocery,2,31
+54,24,pineapples,2,grocery,2,31
+55,24,strawberries,2,grocery,2,31
+56,24,blueberries,2,grocery,2,31
+57,24,spinach,2,grocery,2,31
+58,24,lettuce,2,grocery,2,31
+59,24,apples,2,grocery,2,31
+60,24,bananas,2,grocery,2,31
+61,24,strawberry,2,grocery,2,31
+62,24,broccoli,2,grocery,2,31
+63,24,Turkey,2,grocery,2,31
+64,24,Chicken,2,grocery,2,31
+65,24,Beef,2,grocery,2,31
+66,24,Pork,2,grocery,2,31
+67,24,Sushi,2,grocery,2,31
+138,24,banana,4,grocery,4,32
+139,24,apple,4,grocery,4,32
+140,24,orange,4,grocery,4,32
+141,24,tangerine,4,grocery,4,32
+142,24,clementine,4,grocery,4,32
+143,24,spinach,4,grocery,4,32
+144,24,artichoke,4,grocery,4,32
+145,24,broccoli,4,grocery,4,32
+146,24,seaweed,4,grocery,4,32
+147,24,rice,4,grocery,4,32
+148,24,[unclear],4,grocery,4,32
+149,24,butter,4,grocery,4,32
+150,24,Pineapple,4,grocery,4,32
+151,24,white,4,grocery,4,32
+152,24,strawberry,4,grocery,4,32
+153,24,meat,4,grocery,4,32
+154,24,pork,4,grocery,4,32
+155,24,bacon,4,grocery,4,32
+8,25,toys,4,grocery,1,33
+9,25,whole foods,4,grocery,1,33
+10,25,Yogurts,4,grocery,1,33
+22,25,Strawberries,4,grocery,3,34
+23,25,pouches,4,grocery,3,34
+24,25,cucumbers,4,grocery,3,34
+25,25,pickles,4,grocery,3,34
+20,26,noodles,4,grocery,1,35
+21,26,cheese,4,grocery,1,35
+22,26,pears,4,grocery,1,35
+23,26,cold room pears,4,grocery,1,35
+24,26,apple,4,grocery,1,35
+40,26,Potato,4,grocery,3,36
+41,26,Onion,4,grocery,3,36
+42,26,olive,4,grocery,3,36
+43,26,cheese,4,grocery,3,36
+44,26,Meat,4,grocery,3,36
+45,26,cow,4,grocery,3,36
+46,26,meat,4,grocery,3,36
+47,26,pig,4,grocery,3,36
+48,26,Beef,4,grocery,3,36
+49,26,meat,4,grocery,3,36
+50,26,pig,4,grocery,3,36
+51,26,Swiss cheese,4,grocery,3,36
+7,28,Carrots,4,grocery,1,37
+8,28,Tomatoes,4,grocery,1,37
+9,28,Broccoli,4,grocery,1,37
+10,28,Daisies,4,grocery,1,37
+11,28,Dandelion,4,grocery,1,37
+12,28,Slurpee,4,grocery,1,37
+13,28,alphabet cookies,4,grocery,1,37
+14,28,Salad,4,grocery,1,37
+60,28,Tomato,4,grocery,3,38
+61,28,salad,4,grocery,3,38
+62,28,pickles,4,grocery,3,38
+63,28,alphabet cookies,4,grocery,3,38
+64,28,cheddar,4,grocery,3,38
+65,28,rice cake,4,grocery,3,38
+66,28,Cucumber,4,grocery,3,38
+67,28,Raisin pouch,4,grocery,3,38
+12,29,Food,4,grocery,1,39
+13,29,chicken,4,grocery,1,39
+14,29,water,4,grocery,1,39
+15,29,salmon,4,grocery,1,39
+16,29,cereal,4,grocery,1,39
+17,29,vegetable,4,grocery,1,39
+18,29,cake,4,grocery,1,39
+19,29,soda,4,grocery,1,39
+20,29,Tea,4,grocery,1,39
+21,29,Cabbage,4,grocery,1,39
+22,29,Milk,4,grocery,1,39
+23,29,cashier,4,grocery,1,39
+24,29,Bag,4,grocery,1,39
+90,29,Chicken,4,grocery,3,40
+91,29,Mushroom,4,grocery,3,40
+92,29,cabbage,4,grocery,3,40
+93,29,vegetables,4,grocery,3,40
+94,29,carrot,4,grocery,3,40
+95,29,red pepper,4,grocery,3,40
+96,29,Pepper,4,grocery,3,40
+97,29,Pizza,4,grocery,3,40
+98,29,Burrito,4,grocery,3,40
+99,29,Taco,4,grocery,3,40
+100,29,Fish,4,grocery,3,40
+101,29,Salmon,4,grocery,3,40
+102,29,Dog food,4,grocery,3,40
+103,29,Cat food,4,grocery,3,40
+56,30,Pizza,4,grocery,2,41
+57,30,cashier,4,grocery,2,41
+58,30,cheese,4,grocery,2,41
+59,30,yogurt,4,grocery,2,41
+60,30,Candy,4,grocery,2,41
+61,30,Chocolate,4,grocery,2,41
+62,30,Magazines,4,grocery,2,41
+63,30,Stuffed animals,4,grocery,2,41
+64,30,Bunnies,4,grocery,2,41
+99,30,Cheese,4,grocery,4,42
+100,30,meat,4,grocery,4,42
+101,30,boss,4,grocery,4,42
+102,30,girl,4,grocery,4,42
+103,30,toast,4,grocery,4,42
+104,30,bread,4,grocery,4,42
+105,30,milk,4,grocery,4,42
+106,30,chocolate milk,4,grocery,4,42
+107,30,pizza,4,grocery,4,42
+108,30,Ice cream,4,grocery,4,42
+109,30,cheese,4,grocery,4,42
+110,30,apples,4,grocery,4,42
+111,30,bananas,4,grocery,4,42
+112,30,pears,4,grocery,4,42
+113,30,oranges,4,grocery,4,42
+114,30,corn,4,grocery,4,42
+115,30,asparagus,4,grocery,4,42
+116,30,flowers,4,grocery,4,42
+117,30,Brussel sprouts,4,grocery,4,42
+118,30,broccoli,4,grocery,4,42
+50,31,Eggs,4,grocery,2,43
+51,31,tomatoes,4,grocery,2,43
+52,31,oranges,4,grocery,2,43
+53,31,bananas,4,grocery,2,43
+54,31,yogurt,4,grocery,2,43
+55,31,strawberry,4,grocery,2,43
+56,31,eggs,4,grocery,2,43
+57,31,milk,4,grocery,2,43
+58,31,orange,4,grocery,2,43
+59,31,mandarin,4,grocery,2,43
+60,31,small banana peppers,4,grocery,2,43
+61,31,chocolate milk,4,grocery,2,43
+62,31,chips,4,grocery,2,43
+63,31,meat,4,grocery,2,43
+97,31,Milk,4,grocery,4,44
+98,31,Strawberry,4,grocery,4,44
+99,31,Mandarin,4,grocery,4,44
+100,31,Orange,4,grocery,4,44
+101,31,Banana,4,grocery,4,44
+102,31,Eggs,4,grocery,4,44
+103,31,Meat,4,grocery,4,44
+104,31,Pig,4,grocery,4,44
+105,31,meat,4,grocery,4,44
+106,31,Fish,4,grocery,4,44
+107,31,Chocolate milk,4,grocery,4,44
+108,31,milk,4,grocery,4,44
+109,31,yogurt,4,grocery,4,44
+110,31,Small banana,4,grocery,4,44
+111,31,Eggs,4,grocery,4,44
+112,31,Yogurt,4,grocery,4,44
+113,31,Strawberry yogurt,4,grocery,4,44
+114,31,Banana yogurt,4,grocery,4,44
+115,31,Vanilla yogurt,4,grocery,4,44
+116,31,strawberry,4,grocery,4,44
+117,31,Peach,4,grocery,4,44
+118,31,Dragon fruit,4,grocery,4,44
+119,31,Onions,4,grocery,4,44
+28,32,roti,4,grocery,2,45
+29,32,kebobs,4,grocery,2,45
+30,32,Ice cream,4,grocery,2,45
+31,32,Water,4,grocery,2,45
+32,32,Juice,4,grocery,2,45
+33,32,chicken,4,grocery,2,45
+34,32,turkey,4,grocery,2,45
+35,32,chips,4,grocery,2,45
+36,32,rice,4,grocery,2,45
+97,32,Chicken,2,grocery,4,46
+98,32,rice,2,grocery,4,46
+99,32,corn,2,grocery,4,46
+100,32,chips,2,grocery,4,46
+101,32,water,2,grocery,4,46
+102,32,juice,2,grocery,4,46
+103,32,Ice cream,2,grocery,4,46
+104,32,corn,2,grocery,4,46
+105,32,chicken,2,grocery,4,46
+106,32,roti,2,grocery,4,46
+21,33,apples,4,grocery,2,47
+22,33,Food,4,grocery,2,47
+23,33,Drinks,4,grocery,2,47
+24,33,Oranges,4,grocery,2,47
+25,33,Applesauce,4,grocery,2,47
+26,33,Cucumber,4,grocery,2,47
+60,33,Apples,4,grocery,4,48
+61,33,bananas,4,grocery,4,48
+62,33,fruit,4,grocery,4,48
+63,33,Vegetables,4,grocery,4,48
+64,33,Pig,4,grocery,4,48
+65,33,pasta,4,grocery,4,48
+66,33,Tarantula,4,grocery,4,48
+12,34,food,4,grocery,3,49
+6,35,Carrots,4,grocery,1,50
+7,35,celery,4,grocery,1,50
+8,35,beef,4,grocery,1,50
+9,35,beef jerky,4,grocery,1,50
+10,35,Pepsi,4,grocery,1,50
+11,35,Coke,4,grocery,1,50
+12,35,Fanta,4,grocery,1,50
+13,35,meats,4,grocery,1,50
+14,35,grains,4,grocery,1,50
+15,35,dairies,4,grocery,1,50
+16,35,cereal,4,grocery,1,50
+17,35,Caprisun,4,grocery,1,50
+18,35,Kool-Aid,4,grocery,1,50
+19,35,stuffed animals,4,grocery,1,50
+20,35,gingerbread houses,4,grocery,1,50
+21,35,wheat,4,grocery,1,50
+85,35,Pepsi,4,grocery,3,51
+86,35,Coke,4,grocery,3,51
+87,35,Sprite,4,grocery,3,51
+88,35,Veggies,4,grocery,3,51
+89,35,Caprisun,4,grocery,3,51
+90,35,Koolaid,4,grocery,3,51
+91,35,Rice,4,grocery,3,51
+92,35,Grains,4,grocery,3,51
+93,35,Bread,4,grocery,3,51
+94,35,Wheat,4,grocery,3,51
+95,35,Carrots,4,grocery,3,51
+96,35,Peppers,4,grocery,3,51
+97,35,Fish,4,grocery,3,51
+98,35,Lobsters,4,grocery,3,51
+99,35,Cheese,4,grocery,3,51
+100,35,Crab,4,grocery,3,51
+101,35,Cake,4,grocery,3,51
+102,35,Cookies,4,grocery,3,51
+103,35,[unclear],4,grocery,3,51
+9,36,Strawberries,4,grocery,1,52
+10,36,broccoli,4,grocery,1,52
+11,36,Cucumbers,4,grocery,1,52
+12,36,Tomatoes,4,grocery,1,52
+13,36,Pickles,4,grocery,1,52
+14,36,cucumbers,4,grocery,1,52
+15,36,strawberries,4,grocery,1,52
+16,36,strawberries,4,grocery,1,52
+17,36,blueberries,4,grocery,1,52
+18,36,grapes,4,grocery,1,52
+19,36,broccoli,4,grocery,1,52
+68,36,strawberries,4,grocery,3,53
+69,36,blueberries,4,grocery,3,53
+70,36,grapes,4,grocery,3,53
+71,36,Salmon,4,grocery,3,53
+72,36,salmon fish,4,grocery,3,53
+73,36,grapes,4,grocery,3,53
+74,36,strawberries,4,grocery,3,53
+75,36,strawberries,4,grocery,3,53
+76,36,tomatoes,4,grocery,3,53
+77,36,drinks,4,grocery,3,53
+78,36,drinks,4,grocery,3,53
+79,36,sodas,4,grocery,3,53
+80,36,Coke,4,grocery,3,53
+47,37,Grocery cart,4,grocery,2,54
+48,37,Apples,4,grocery,2,54
+49,37,Tomatoes,4,grocery,2,54
+50,37,Avocados,4,grocery,2,54
+51,37,Flowers,4,grocery,2,54
+52,37,Potatoes,4,grocery,2,54
+53,37,Apples,4,grocery,2,54
+54,37,pancake mix,4,grocery,2,54
+55,37,hot chocolate,4,grocery,2,54
+56,37,Pops,4,grocery,2,54
+57,37,ice cream,4,grocery,2,54
+58,37,Bell peppers,4,grocery,2,54
+83,37,grocery carts,4,grocery,4,55
+84,37,check-out,4,grocery,4,55
+85,37,stands,4,grocery,4,55
+86,37,people,4,grocery,4,55
+87,37,tomatoes,4,grocery,4,55
+88,37,avocados,4,grocery,4,55
+89,37,bread,4,grocery,4,55
+90,37,Flowers,4,grocery,4,55
+91,37,plant,4,grocery,4,55
+92,37,pasta,4,grocery,4,55
+34,38,Soda,4,grocery,2,56
+35,38,cookies,4,grocery,2,56
+36,38,candy,4,grocery,2,56
+37,38,toys,4,grocery,2,56
+38,38,Shopping cart,4,grocery,2,56
+62,38,Toys,4,grocery,4,57
+63,38,cookies,4,grocery,4,57
+64,38,shopping,4,grocery,4,57
+65,38,tote bags,4,grocery,4,57
+66,38,little baskets,4,grocery,4,57
+51,40,chicken,4,grocery,2,58
+52,40,corn,4,grocery,2,58
+53,40,Broccoli,4,grocery,2,58
+54,40,tomato,4,grocery,2,58
+55,40,pear,4,grocery,2,58
+56,40,bittermelon,4,grocery,2,58
+57,40,eggplant,4,grocery,2,58
+58,40,strawberry,4,grocery,2,58
+59,40,blueberry,4,grocery,2,58
+60,40,banana,4,grocery,2,58
+61,40,pear,4,grocery,2,58
+62,40,cereal,4,grocery,2,58
+63,40,chewies,4,grocery,2,58
+64,40,lettuce,4,grocery,2,58
+65,40,spinach,4,grocery,2,58
+66,40,broccoli,4,grocery,2,58
+67,40,pears,4,grocery,2,58
+68,40,plates,4,grocery,2,58
+69,40,bowls,4,grocery,2,58
+70,40,yogurt,4,grocery,2,58
+71,40,milk,4,grocery,2,58
+136,40,Plates,4,grocery,4,59
+137,40,bowls,4,grocery,4,59
+138,40,knives,4,grocery,4,59
+139,40,forks,4,grocery,4,59
+140,40,spoons,4,grocery,4,59
+141,40,tomatoes,4,grocery,4,59
+142,40,peppers,4,grocery,4,59
+143,40,cookies,4,grocery,4,59
+144,40,sugar,4,grocery,4,59
+145,40,cookies,4,grocery,4,59
+146,40,raisin,4,grocery,4,59
+147,40,cookies,4,grocery,4,59
+148,40,bread,4,grocery,4,59
+149,40,corn,4,grocery,4,59
+150,40,muffins,4,grocery,4,59
+151,40,broccoli,4,grocery,4,59
+152,40,lettuce,4,grocery,4,59
+153,40,farming,4,grocery,4,59
+154,40,lettuce,4,grocery,4,59
+155,40,corn,4,grocery,4,59
+156,40,eggplant,4,grocery,4,59
+157,40,bittermelon,4,grocery,4,59
+158,40,broccoli,4,grocery,4,59
+159,40,sugar cookie,4,grocery,4,59
+160,40,plain cookie,4,grocery,4,59
+161,40,Chicken,4,grocery,4,59
+162,40,Bread,4,grocery,4,59
+163,40,Raisin bread,4,grocery,4,59
+164,40,Corn bread,4,grocery,4,59
+165,40,Celery,4,grocery,4,59
+166,40,bread,4,grocery,4,59
+167,40,banana bread,4,grocery,4,59
+168,40,milk,4,grocery,4,59
+35,41,oranges,4,grocery,1,60
+36,41,apple,4,grocery,1,60
+37,41,chinese food,4,grocery,1,60
+38,41,[chinese word],4,grocery,1,60
+39,41,Chips,4,grocery,1,60
+40,41,nuts,4,grocery,1,60
+41,41,ingredients,4,grocery,1,60
+42,41,cupcakes,4,grocery,1,60
+43,41,veggies,4,grocery,1,60
+44,41,perfume,4,grocery,1,60
+45,41,grapes,4,grocery,1,60
+46,41,fruit,4,grocery,1,60
+47,41,carbs,4,grocery,1,60
+48,41,dairy,4,grocery,1,60
+84,41,Cherry,4,grocery,3,61
+85,41,strawberry,4,grocery,3,61
+86,41,pineapple,4,grocery,3,61
+87,41,orange,4,grocery,3,61
+88,41,grape,4,grocery,3,61
+89,41,candy,4,grocery,3,61
+90,41,grape,4,grocery,3,61
+91,41,nut,4,grocery,3,61
+92,41,cashew,4,grocery,3,61
+93,41,carbs,4,grocery,3,61
+94,41,fruit,4,grocery,3,61
+95,41,tea,4,grocery,3,61
+96,41,fruit,4,grocery,3,61
+97,41,vegetable,4,grocery,3,61
+98,41,dairy,4,grocery,3,61
+99,41,chairs,4,grocery,3,61
+100,41,mask,4,grocery,3,61
+101,41,register,4,grocery,3,61
+15,42,food,4,grocery,1,62
+16,42,cheese,4,grocery,1,62
+17,42,asparagus,4,grocery,1,62
+18,42,broccoli,4,grocery,1,62
+19,42,rice,4,grocery,1,62
+20,42,meat,4,grocery,1,62
+21,42,fish,4,grocery,1,62
+22,42,cow,4,grocery,1,62
+23,42,meat,4,grocery,1,62
+24,42,radish,4,grocery,1,62
+25,42,chocolate muffin,4,grocery,1,62
+26,42,bagel,4,grocery,1,62
+81,42,kiwi,4,grocery,3,63
+82,42,mango,4,grocery,3,63
+83,42,duck,4,grocery,3,63
+84,42,pig,4,grocery,3,63
+85,42,cow,4,grocery,3,63
+86,42,pear,4,grocery,3,63
+87,42,fruit,4,grocery,3,63
+88,42,raspberry,4,grocery,3,63
+89,42,banana,4,grocery,3,63
+90,42,blackberry,4,grocery,3,63
+16,43,Food,4,grocery,1,64
+17,43,salmon,4,grocery,1,64
+18,43,broccoli,4,grocery,1,64
+19,43,salmon,4,grocery,1,64
+20,43,fish,4,grocery,1,64
+21,43,meat,4,grocery,1,64
+22,43,vegetarian,4,grocery,1,64
+23,43,steak,4,grocery,1,64
+24,43,steak,4,grocery,1,64
+25,43,sausage,4,grocery,1,64
+26,43,cheese,4,grocery,1,64
+27,43,fish,4,grocery,1,64
+28,43,apples,4,grocery,1,64
+29,43,fruits,4,grocery,1,64
+30,43,oranges,4,grocery,1,64
+31,43,walnuts,4,grocery,1,64
+32,43,desserts,4,grocery,1,64
+33,43,cake,4,grocery,1,64
+34,43,pockies,4,grocery,1,64
+35,43,chip bags,4,grocery,1,64
+36,43,chip boxes,4,grocery,1,64
+37,43,strawberry,4,grocery,1,64
+38,43,Asian pears,4,grocery,1,64
+39,43,pears,4,grocery,1,64
+135,43,Food,4,grocery,3,65
+136,43,asparagus,4,grocery,3,65
+137,43,meat,4,grocery,3,65
+138,43,fish,4,grocery,3,65
+139,43,fruits,4,grocery,3,65
+140,43,oranges,4,grocery,3,65
+141,43,apples,4,grocery,3,65
+142,43,kiwis,4,grocery,3,65
+143,43,watermelons,4,grocery,3,65
+144,43,salmon,4,grocery,3,65
+145,43,tuna,4,grocery,3,65
+146,43,carp,4,grocery,3,65
+147,43,ham,4,grocery,3,65
+148,43,sausage,4,grocery,3,65
+149,43,salami,4,grocery,3,65
+150,43,desserts,4,grocery,3,65
+151,43,cake,4,grocery,3,65
+152,43,cupcakes,4,grocery,3,65
+153,43,seaweed,4,grocery,3,65
+154,43,rice,4,grocery,3,65
+155,43,mayo,4,grocery,3,65
+156,43,sriracha,4,grocery,3,65
+157,43,sauces,4,grocery,3,65
+158,43,bananas,4,grocery,3,65
+50,44,Apples,4,grocery,2,66
+51,44,Bananas,4,grocery,2,66
+52,44,Peaches,4,grocery,2,66
+53,44,Pears,4,grocery,2,66
+54,44,Lemons,4,grocery,2,66
+55,44,Waffles,4,grocery,2,66
+56,44,Cheetos,4,grocery,2,66
+57,44,Chips,4,grocery,2,66
+58,44,noodles,4,grocery,2,66
+59,44,udon,4,grocery,2,66
+60,44,Broccoli,4,grocery,2,66
+61,44,Carrots,4,grocery,2,66
+62,44,Hamburgers,4,grocery,2,66
+63,44,French fries,4,grocery,2,66
+64,44,Mayonnaise,4,grocery,2,66
+98,44,Apple,4,grocery,4,67
+99,44,Bananas,4,grocery,4,67
+100,44,Grapes,4,grocery,4,67
+101,44,Vegetables,4,grocery,4,67
+102,44,Carrots,4,grocery,4,67
+103,44,Meat,4,grocery,4,67
+104,44,Protein,4,grocery,4,67
+105,44,Ice cream bars,4,grocery,4,67
+106,44,Ice cream,4,grocery,4,67
+107,44,Vanilla ice cream,4,grocery,4,67
+108,44,Ice pops,4,grocery,4,67
+109,44,Treats,4,grocery,4,67
+110,44,Candy,4,grocery,4,67
+111,44,Vegetables,4,grocery,4,67
+112,44,Juice,4,grocery,4,67
+113,44,Apple juice,4,grocery,4,67
+114,44,Cheeseburgers,4,grocery,4,67
+115,44,French fries,4,grocery,4,67
+116,44,chicken nuggets,4,grocery,4,67
+117,44,Chicken wings,4,grocery,4,67
+118,44,Chicken legs,4,grocery,4,67
+79,45,spaghetti,4,grocery,2,68
+80,45,meat,4,grocery,2,68
+81,45,chicken,4,grocery,2,68
+82,45,papayas,4,grocery,2,68
+83,45,mangoes,4,grocery,2,68
+84,45,fruits,4,grocery,2,68
+85,45,strawberries,4,grocery,2,68
+86,45,peaches,4,grocery,2,68
+87,45,bananas,4,grocery,2,68
+88,45,lettuce,4,grocery,2,68
+89,45,cabbage,4,grocery,2,68
+90,45,dragon fruits,4,grocery,2,68
+91,45,watermelons,4,grocery,2,68
+92,45,candy melons,4,grocery,2,68
+93,45,broccoli,4,grocery,2,68
+129,45,tomatoes,4,grocery,4,69
+130,45,lettuce,4,grocery,4,69
+131,45,mangoes,4,grocery,4,69
+132,45,apples,4,grocery,4,69
+133,45,strawberries,4,grocery,4,69
+134,45,peaches,4,grocery,4,69
+135,45,bananas,4,grocery,4,69
+136,45,lettuce,4,grocery,4,69
+137,45,cauliflower,4,grocery,4,69
+138,45,chicken,4,grocery,4,69
+139,45,meat,4,grocery,4,69
+140,45,celery,4,grocery,4,69
+141,45,oranges,4,grocery,4,69
+142,45,lemons,4,grocery,4,69
+143,45,papayas,4,grocery,4,69
+144,45,dragon fruits,4,grocery,4,69
+145,45,green apples,4,grocery,4,69
+146,45,pears,4,grocery,4,69
+147,45,sweet pears,4,grocery,4,69
+148,45,dragon fruit,4,grocery,4,69
+36,46,broccoli,4,grocery,2,70
+37,46,carrot,4,grocery,2,70
+38,46,cereal,4,grocery,2,70
+39,46,bananas,4,grocery,2,70
+40,46,egg,4,grocery,2,70
+41,46,food,4,grocery,2,70
+42,46,Applesauce,4,grocery,2,70
+43,46,cheesy pasta,4,grocery,2,70
+44,46,candy,4,grocery,2,70
+87,46,blackberry,4,grocery,4,71
+88,46,cereal,4,grocery,4,71
+89,46,banana,4,grocery,4,71
+90,46,Apple,4,grocery,4,71
+91,46,carrot,4,grocery,4,71
+92,46,Toy,4,grocery,4,71
+93,46,Candy,4,grocery,4,71
+94,46,light bulb,4,grocery,4,71
+95,46,wood,4,grocery,4,71
+96,46,table,4,grocery,4,71
+97,46,chair,4,grocery,4,71
+98,46,rug,4,grocery,4,71
+99,46,glasses,4,grocery,4,71
+100,46,tables,4,grocery,4,71
+48,47,Lettuce,4,grocery,2,72
+49,47,Apples,4,grocery,2,72
+50,47,Carrots,4,grocery,2,72
+51,47,Ice cream,4,grocery,2,72
+52,47,Ice pops,4,grocery,2,72
+53,47,Candy,4,grocery,2,72
+54,47,Cereal,4,grocery,2,72
+55,47,Cabinet food,4,grocery,2,72
+56,47,klein bars,4,grocery,2,72
+57,47,stuff,4,grocery,2,72
+58,47,Drinks,4,grocery,2,72
+59,47,All sorts of different stuff,4,grocery,2,72
+60,47,Cotton candy,4,grocery,2,72
+61,47,yummy stuff I like,4,grocery,2,72
+62,47,lemons,4,grocery,2,72
+63,47,limes,4,grocery,2,72
+64,47,pineapples,4,grocery,2,72
+65,47,coconut,4,grocery,2,72
+66,47,sugar,4,grocery,2,72
+142,47,Lettuce,4,grocery,4,73
+143,47,tomato,4,grocery,4,73
+144,47,Pineapples,4,grocery,4,73
+145,47,Apples,4,grocery,4,73
+146,47,Lettuce,4,grocery,4,73
+147,47,Tomatoes,4,grocery,4,73
+148,47,Apples,4,grocery,4,73
+149,47,Peanut butter,4,grocery,4,73
+150,47,ants on a log,4,grocery,4,73
+151,47,The log,4,grocery,4,73
+152,47,The filling of the log,4,grocery,4,73
+153,47,The ants that go on the log,4,grocery,4,73
+154,47,Raisins,4,grocery,4,73
+155,47,yucky indian pickes,4,grocery,4,73
+156,47,yucky zombie skittles,4,grocery,4,73
+157,47,Skittles,4,grocery,4,73
+158,47,Yummy nerds,4,grocery,4,73
+159,47,Food,4,grocery,4,73
+160,47,Soda,4,grocery,4,73
+161,47,All kinds of drinks,4,grocery,4,73
+162,47,Baby drinks,4,grocery,4,73
+163,47,grown-up drinks,4,grocery,4,73
+164,47,Kid drinks,4,grocery,4,73
+35,48,apples,4,grocery,1,74
+36,48,bananas,4,grocery,1,74
+37,48,blueberries,4,grocery,1,74
+38,48,apples,4,grocery,1,74
+39,48,pears,4,grocery,1,74
+40,48,watermelon,4,grocery,1,74
+41,48,cocoa,4,grocery,1,74
+42,48,carrots,4,grocery,1,74
+62,48,apples,4,grocery,3,75
+63,48,strawberries,4,grocery,3,75
+64,48,coconut,4,grocery,3,75
+65,48,bananas,4,grocery,3,75
+66,48,watermelon,4,grocery,3,75
+67,48,macaroni and cheese,4,grocery,3,75
+68,48,bananas,4,grocery,3,75
+69,48,lettuce,4,grocery,3,75
+70,48,tomatoes,4,grocery,3,75
+29,49,apple,4,grocery,1,76
+30,49,strawberry,4,grocery,1,76
+31,49,banana,4,grocery,1,76
+32,49,lemon,4,grocery,1,76
+33,49,orange,4,grocery,1,76
+34,49,lime,4,grocery,1,76
+35,49,fruit,4,grocery,1,76
+36,49,passion fruit,4,grocery,1,76
+54,49,apple,4,grocery,3,77
+55,49,strawberry,4,grocery,3,77
+56,49,banana,4,grocery,3,77
+57,49,Pineapple,4,grocery,3,77
+58,49,Grape fruit,4,grocery,3,77
+59,49,Pineapple,4,grocery,3,77
+60,49,Fruit punch,4,grocery,3,77

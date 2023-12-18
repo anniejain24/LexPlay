@@ -1,0 +1,373 @@
+,id,item,category_id,category,round,listnum
+0,7,track,0,toys,0,1
+1,7,dinosaur,0,toys,0,1
+2,7,motorcycle,0,toys,0,1
+3,7,horse,0,toys,0,1
+4,7,dump truck,0,toys,0,1
+5,7,excavator,0,toys,0,1
+6,7,[unclear],0,toys,0,1
+7,7,noodle,0,toys,0,1
+8,7,butterfly,0,toys,0,1
+9,7,bear,0,toys,0,1
+10,7,pikachu,0,toys,0,1
+11,7,squirtle,0,toys,0,1
+0,8,Fidget,0,toys,0,2
+1,8,Balls,0,toys,0,2
+2,8,baby stuff,0,toys,0,2
+3,8,Babies,0,toys,0,2
+4,8,toy,0,toys,0,2
+5,8,babies,0,toys,0,2
+6,8,cars,0,toys,0,2
+7,8,track,0,toys,0,2
+8,8,Puzzle pieces,0,toys,0,2
+9,8,baby things,0,toys,0,2
+10,8,baby shakes,0,toys,0,2
+11,8,balls,0,toys,0,2
+12,8,balls,0,toys,0,2
+0,9,dinosaur,0,toys,0,3
+1,9,stuffed animal,0,toys,0,3
+2,9,a marvel one,0,toys,0,3
+3,9,Legos,0,toys,0,3
+4,9,Harry Potter figures,0,toys,0,3
+5,9,Superhero figures,0,toys,0,3
+6,9,Poochie,0,toys,0,3
+0,12,Toy train,0,toys,0,4
+1,12,Block,0,toys,0,4
+2,12,Puzzle,0,toys,0,4
+3,12,pizza,0,toys,0,4
+0,13,baby toy,0,toys,0,5
+1,13,kid toy,0,toys,0,5
+2,13,grown-up toy,0,toys,0,5
+3,13,dinosaur toy,0,toys,0,5
+4,13,cat toy,0,toys,0,5
+5,13,dog toy,0,toys,0,5
+6,13,bone,0,toys,0,5
+7,13,dog food,0,toys,0,5
+8,13,food,0,toys,0,5
+9,13,cat,0,toys,0,5
+10,13,games,0,toys,0,5
+11,13,puzzles,0,toys,0,5
+0,14,Cars,0,toys,0,6
+1,14,Legos,0,toys,0,6
+2,14,Those good ones,0,toys,0,6
+3,14,little tiny figures,0,toys,0,6
+4,14,baseball card,0,toys,0,6
+5,14,Football card,0,toys,0,6
+0,18,Slinky,0,toys,0,7
+1,18,Ball toy,0,toys,0,7
+2,18,race car toy,0,toys,0,7
+3,18,Race car,0,toys,0,7
+4,18,Toy,0,toys,0,7
+5,18,Stuffed animal toy,0,toys,0,7
+6,18,magnet toy,0,toys,0,7
+7,18,Magnet tiles,0,toys,0,7
+8,18,Those toys fly like pull thingy,0,toys,0,7
+0,19,toy car,0,toys,0,8
+1,19,teddy bear,0,toys,0,8
+2,19,race car,0,toys,0,8
+3,19,Hot wheels car,0,toys,0,8
+4,19,Monster truck,0,toys,0,8
+5,19,cowboy toy,0,toys,0,8
+6,19,owlette toy,0,toys,0,8
+7,19,Marshall toy,0,toys,0,8
+8,19,Rider toy,0,toys,0,8
+9,19,Chase toy,0,toys,0,8
+10,19,Gecko toy,0,toys,0,8
+11,19,cowboy car,0,toys,0,8
+12,19,mr. potato head,0,toys,0,8
+0,20,teddy bear,0,toys,0,9
+1,20,Elephant,0,toys,0,9
+2,20,Puppy,0,toys,0,9
+3,20,toy story,0,toys,0,9
+4,20,Woody,0,toys,0,9
+5,20,Buzz,0,toys,0,9
+6,20,hedgehog,0,toys,0,9
+0,21,maraca,0,toys,0,10
+1,21,toy piece,0,toys,0,10
+2,21,fish,0,toys,0,10
+3,21,pom-pom,0,toys,0,10
+4,21,timer,0,toys,0,10
+5,21,toy,0,toys,0,10
+6,21,necklace,0,toys,0,10
+7,21,Legos,0,toys,0,10
+8,21,Mickey Mouse,0,toys,0,10
+9,21,Lego piece,0,toys,0,10
+10,21,computer,0,toys,0,10
+11,21,computer toy,0,toys,0,10
+0,22,stuffies,0,toys,0,11
+1,22,squishies,0,toys,0,11
+2,22,hard toys,0,toys,0,11
+3,22,sparkly toys,0,toys,0,11
+4,22,shiny toys,0,toys,0,11
+5,22,noisy toys,0,toys,0,11
+6,22,toys,0,toys,0,11
+7,22,silly toys,0,toys,0,11
+8,22,cute toys,0,toys,0,11
+9,22,[unclear] stuff,0,toys,0,11
+10,22,plastic toys,0,toys,0,11
+11,22,round toys,0,toys,0,11
+12,22,toys that break,0,toys,0,11
+13,22,toys that don't break,0,toys,0,11
+14,22,pictures,0,toys,0,11
+0,23,stuffy,0,toys,0,12
+1,23,dolly,0,toys,0,12
+2,23,baby doll,0,toys,0,12
+3,23,art toy,0,toys,0,12
+4,23,Pom-pom toys,0,toys,0,12
+5,23,Paper toys,0,toys,0,12
+6,23,Airplanes,0,toys,0,12
+7,23,paper bear,0,toys,0,12
+8,23,Paper bird,0,toys,0,12
+9,23,Paper computer,0,toys,0,12
+10,23,Computer,0,toys,0,12
+11,23,Paper iPad,0,toys,0,12
+12,23,Paper pen,0,toys,0,12
+13,23,Paper pom-pom,0,toys,0,12
+0,24,Toy car,0,toys,0,13
+1,24,toy stuffed animal,0,toys,0,13
+2,24,Nintendo switch,0,toys,0,13
+3,24,PlayStation,0,toys,0,13
+4,24,PlayStation 1,0,toys,0,13
+5,24,PlayStation 2,0,toys,0,13
+6,24,PlayStation 3,0,toys,0,13
+7,24,PlayStation 4,0,toys,0,13
+8,24,PlayStation 5,0,toys,0,13
+9,24,Xbox,0,toys,0,13
+10,24,Xbox 360,0,toys,0,13
+11,24,Nintendo switch light,0,toys,0,13
+12,24,toy apple,0,toys,0,13
+13,24,toy banana,0,toys,0,13
+14,24,banana thing,0,toys,0,13
+15,24,toy monkey,0,toys,0,13
+16,24,toy ball,0,toys,0,13
+17,24,soccer ball,0,toys,0,13
+18,24,ball toy,0,toys,0,13
+19,24,dog toy,0,toys,0,13
+20,24,car,0,toys,0,13
+0,25,[unclear],0,toys,0,14
+1,25,rocket ships,0,toys,0,14
+0,26,light saber toy,0,toys,0,15
+1,26,dragonfly toy,0,toys,0,15
+2,26,pokemon toy,0,toys,0,15
+3,26,fire truck,0,toys,0,15
+4,26,toy bus,0,toys,0,15
+5,26,toy ninja,0,toys,0,15
+6,26,toy phone,0,toys,0,15
+7,26,toy computer,0,toys,0,15
+8,26,toy speaker,0,toys,0,15
+9,26,one of those fake houses you put in the backyard,0,toys,0,15
+0,28,toy cab,0,toys,0,16
+1,28,Toy ball,0,toys,0,16
+2,28,Toy book,0,toys,0,16
+3,28,toy globe,0,toys,0,16
+4,28,Toy school,0,toys,0,16
+5,28,Toy season,0,toys,0,16
+6,28,Toy cup,0,toys,0,16
+0,29,Toy story,0,toys,0,17
+1,29,Toy jar,0,toys,0,17
+2,29,toy planes,0,toys,0,17
+3,29,toys,0,toys,0,17
+4,29,Toy stuffed animal,0,toys,0,17
+5,29,Toy panda,0,toys,0,17
+6,29,toy,0,toys,0,17
+7,29,Toy giraffe,0,toys,0,17
+8,29,Toy bunny,0,toys,0,17
+9,29,Toy skunk,0,toys,0,17
+10,29,Toy pom-pom,0,toys,0,17
+11,29,Toy pup,0,toys,0,17
+0,30,legos,0,toys,0,18
+1,30,magnet tiles,0,toys,0,18
+2,30,connectors,0,toys,0,18
+3,30,Train,0,toys,0,18
+4,30,blocks,0,toys,0,18
+5,30,Bouncy balls,0,toys,0,18
+6,30,paint,0,toys,0,18
+7,30,crayons,0,toys,0,18
+0,31,train,0,toys,0,19
+1,31,LOL doll,0,toys,0,19
+2,31,little cheeky bird,0,toys,0,19
+3,31,car,0,toys,0,19
+4,31,Barbie,0,toys,0,19
+5,31,Hello kitty,0,toys,0,19
+6,31,unicorn toy,0,toys,0,19
+7,31,My little pony,0,toys,0,19
+8,31,LOL house,0,toys,0,19
+9,31,unicorn dress,0,toys,0,19
+10,31,My little pony clothes,0,toys,0,19
+0,32,train,0,toys,0,20
+1,32,airplane,0,toys,0,20
+2,32,Blocks,0,toys,0,20
+3,32,Legos,0,toys,0,20
+4,32,Connect four,0,toys,0,20
+5,32,car,0,toys,0,20
+6,32,toy kitchen,0,toys,0,20
+7,32,toy food,0,toys,0,20
+0,33,rubix cube,0,toys,0,21
+1,33,slinky,0,toys,0,21
+2,33,Train,0,toys,0,21
+3,33,Spider-Man,0,toys,0,21
+4,33,toy fly,0,toys,0,21
+5,33,train toy,0,toys,0,21
+6,33,pyramid,0,toys,0,21
+0,35,legos,0,toys,0,22
+1,35,nerf guns,0,toys,0,22
+2,35,[unclear],0,toys,0,22
+3,35,Pokemon Battle Academy,0,toys,0,22
+4,35,Othello Operation [unclear],0,toys,0,22
+5,35,Pool,0,toys,0,22
+0,36,Lego,0,toys,0,23
+1,36,Blocks,0,toys,0,23
+2,36,Lego blocks,0,toys,0,23
+3,36,toy train,0,toys,0,23
+4,36,train,0,toys,0,23
+5,36,car,0,toys,0,23
+6,36,Pokemon,0,toys,0,23
+7,36,toy pokemon,0,toys,0,23
+8,36,pokemon,0,toys,0,23
+0,37,teddy bear,0,toys,0,24
+1,37,blocks,0,toys,0,24
+2,37,toy train,0,toys,0,24
+3,37,train tracks,0,toys,0,24
+4,37,robot,0,toys,0,24
+5,37,toy ball,0,toys,0,24
+0,38,remote control cars,0,toys,0,25
+1,38,Drones,0,toys,0,25
+2,38,Toy trains,0,toys,0,25
+3,38,Cars,0,toys,0,25
+0,40,toys,0,toys,0,26
+1,40,teddy bear,0,toys,0,26
+2,40,doll house,0,toys,0,26
+3,40,ball,0,toys,0,26
+4,40,cup,0,toys,0,26
+5,40,table,0,toys,0,26
+6,40,mouse,0,toys,0,26
+7,40,food,0,toys,0,26
+8,40,house,0,toys,0,26
+9,40,bed,0,toys,0,26
+10,40,closet,0,toys,0,26
+0,41,LOL doll,0,toys,0,27
+1,41,barbie,0,toys,0,27
+2,41,slinky,0,toys,0,27
+3,41,Fridge,0,toys,0,27
+4,41,toys,0,toys,0,27
+5,41,jack in the box,0,toys,0,27
+6,41,shower,0,toys,0,27
+7,41,toys,0,toys,0,27
+0,42,Car,0,toys,0,28
+1,42,truck,0,toys,0,28
+2,42,minivan,0,toys,0,28
+3,42,tesla,0,toys,0,28
+4,42,lamborghini,0,toys,0,28
+5,42,toy,0,toys,0,28
+6,42,wipe,0,toys,0,28
+7,42,Kitchen,0,toys,0,28
+8,42,sand timer,0,toys,0,28
+9,42,iPad,0,toys,0,28
+10,42,TV,0,toys,0,28
+11,42,computer,0,toys,0,28
+12,42,phone,0,toys,0,28
+13,42,lamp,0,toys,0,28
+14,42,chair,0,toys,0,28
+0,43,toy,0,toys,0,29
+1,43,airplane,0,toys,0,29
+2,43,stuffy,0,toys,0,29
+3,43,computer,0,toys,0,29
+4,43,food,0,toys,0,29
+5,43,toy food,0,toys,0,29
+6,43,toy kitchen,0,toys,0,29
+7,43,toy person,0,toys,0,29
+8,43,toy plane,0,toys,0,29
+9,43,toy train,0,toys,0,29
+10,43,toy car,0,toys,0,29
+11,43,toy vehicles,0,toys,0,29
+12,43,toy shoes,0,toys,0,29
+13,43,toy airport,0,toys,0,29
+14,43,toy chair,0,toys,0,29
+15,43,toy phone,0,toys,0,29
+0,44,Legos,0,toys,0,30
+1,44,Blocks,0,toys,0,30
+2,44,Action figures,0,toys,0,30
+3,44,Books,0,toys,0,30
+4,44,cards,0,toys,0,30
+5,44,iPads,0,toys,0,30
+0,45,Pom-poms,0,toys,0,31
+1,45,toy cars,0,toys,0,31
+2,45,strings,0,toys,0,31
+3,45,knitting,0,toys,0,31
+4,45,bow ties,0,toys,0,31
+5,45,dolls,0,toys,0,31
+6,45,legos,0,toys,0,31
+7,45,slime,0,toys,0,31
+8,45,play-doh,0,toys,0,31
+9,45,Rubiks cubes,0,toys,0,31
+10,45,little baby toy,0,toys,0,31
+11,45,cars,0,toys,0,31
+12,45,LOL dolls,0,toys,0,31
+13,45,cute plushies,0,toys,0,31
+14,45,plushies,0,toys,0,31
+15,45,plushies made of pom-poms,0,toys,0,31
+16,45,coloring books,0,toys,0,31
+17,45,origami books,0,toys,0,31
+18,45,playing hot potato,0,toys,0,31
+0,46,Toy,0,toys,0,32
+1,46,horse,0,toys,0,32
+2,46,Doll house,0,toys,0,32
+3,46,Toy computer,0,toys,0,32
+4,46,toy drawer,0,toys,0,32
+5,46,American girl doll,0,toys,0,32
+6,46,pretend measuring cup,0,toys,0,32
+7,46,ruler,0,toys,0,32
+8,46,bag,0,toys,0,32
+9,46,[unclear],0,toys,0,32
+10,46,blanket,0,toys,0,32
+11,46,doll,0,toys,0,32
+12,46,toy lamp,0,toys,0,32
+13,46,toy table,0,toys,0,32
+0,47,American girl dolls,0,toys,0,33
+1,47,American girl doll accessories,0,toys,0,33
+2,47,Our generation,0,toys,0,33
+3,47,Our generation accessories,0,toys,0,33
+4,47,Toy horse,0,toys,0,33
+5,47,Barbie dolls,0,toys,0,33
+6,47,Collectibles,0,toys,0,33
+7,47,Puppets,0,toys,0,33
+8,47,fidgets,0,toys,0,33
+9,47,[unclear],0,toys,0,33
+10,47,Baby dolls,0,toys,0,33
+11,47,American girl dolls,0,toys,0,33
+12,47,American girl doll that I named Hannah,0,toys,0,33
+13,47,toy horse,0,toys,0,33
+0,48,toys,0,toys,0,34
+1,48,race cars,0,toys,0,34
+2,48,pom-poms,0,toys,0,34
+3,48,cars,0,toys,0,34
+4,48,trucks,0,toys,0,34
+5,48,planes,0,toys,0,34
+6,48,boats,0,toys,0,34
+7,48,duckies,0,toys,0,34
+8,48,toys,0,toys,0,34
+9,48,cars,0,toys,0,34
+10,48,dinosaurs,0,toys,0,34
+11,48,Penguins,0,toys,0,34
+12,48,Horses,0,toys,0,34
+13,48,grassland,0,toys,0,34
+14,48,cows,0,toys,0,34
+15,48,Maracas,0,toys,0,34
+16,48,amarillo,0,toys,0,34
+17,48,bus,0,toys,0,34
+18,48,cars,0,toys,0,34
+0,49,Fire truck,0,toys,0,35
+1,49,Police car,0,toys,0,35
+2,49,Ambulance,0,toys,0,35
+3,49,Tow truck,0,toys,0,35
+4,49,Bull dozer,0,toys,0,35
+5,49,Crane,0,toys,0,35
+6,49,Helicopter,0,toys,0,35
+7,49,Airplane,0,toys,0,35
+8,49,Jet,0,toys,0,35
+9,49,Blue angel,0,toys,0,35
+10,49,Snowplow,0,toys,0,35
+11,49,Pickup truck,0,toys,0,35
+12,49,Regular car,0,toys,0,35
+13,49,Electric car,0,toys,0,35
+14,49,cyber truck,0,toys,0,35

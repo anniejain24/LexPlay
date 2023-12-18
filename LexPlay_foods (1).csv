@@ -1,0 +1,1135 @@
+,id,item,category_id,category,round,listnum
+31,7,pizza,3,foods,1,1
+32,7,mac and cheese,3,foods,1,1
+33,7,pasta,3,foods,1,1
+34,7,waffles,3,foods,1,1
+35,7,pancakes,3,foods,1,1
+36,7,grapefruit,3,foods,1,1
+37,7,orange,3,foods,1,1
+38,7,apple,3,foods,1,1
+39,7,clementine,3,foods,1,1
+40,7,pear,3,foods,1,1
+41,7,broccoli,3,foods,1,1
+42,7,celery,3,foods,1,1
+43,7,chorizo,3,foods,1,1
+44,7,ice cream,3,foods,1,1
+45,7,cake,3,foods,1,1
+46,7,pie,3,foods,1,1
+81,7,Pizza,3,foods,3,2
+82,7,broccoli,3,foods,3,2
+83,7,mac,3,foods,3,2
+84,7,cheese,3,foods,3,2
+85,7,noodles,3,foods,3,2
+86,7,spaghetti,3,foods,3,2
+87,7,chorizo,3,foods,3,2
+88,7,grapefruit,3,foods,3,2
+89,7,apple,3,foods,3,2
+90,7,blackberry,3,foods,3,2
+91,7,raspberry,3,foods,3,2
+92,7,carrot,3,foods,3,2
+93,7,carrot pizza,3,foods,3,2
+94,7,cabbage,3,foods,3,2
+95,7,spinach,3,foods,3,2
+96,7,turnip,3,foods,3,2
+97,7,iceberg,3,foods,3,2
+98,7,snow,3,foods,3,2
+99,7,applesauce,3,foods,3,2
+100,7,Turkey,3,foods,3,2
+34,8,Doritos,3,foods,2,3
+35,8,Noodles,3,foods,2,3
+36,8,Salad,3,foods,2,3
+37,8,Sprinkles,3,foods,2,3
+38,8,Oven,3,foods,2,3
+39,8,Oven food,3,foods,2,3
+40,8,muffins,3,foods,2,3
+41,8,candy,3,foods,2,3
+42,8,[unclear],3,foods,2,3
+43,8,noodles,3,foods,2,3
+44,8,teams,3,foods,2,3
+45,8,M&Ms,3,foods,2,3
+99,8,Animal,3,foods,4,4
+100,8,food,3,foods,4,4
+101,8,Sheep,3,foods,4,4
+102,8,Food,3,foods,4,4
+103,8,chips,3,foods,4,4
+104,8,food,3,foods,4,4
+105,8,Chicken nuggets,3,foods,4,4
+106,8,Fried,3,foods,4,4
+107,8,fries,3,foods,4,4
+108,8,Turkey,3,foods,4,4
+109,8,Fish,3,foods,4,4
+110,8,Chicken wings,3,foods,4,4
+111,8,Water,3,foods,4,4
+112,8,Milk,3,foods,4,4
+113,8,chocolate milk,3,foods,4,4
+114,8,Turkey,3,foods,4,4
+115,8,Salad,3,foods,4,4
+116,8,Turkey,3,foods,4,4
+30,9,candy,3,foods,2,5
+31,9,Chicken,3,foods,2,5
+32,9,egg,3,foods,2,5
+33,9,bacon,3,foods,2,5
+34,9,Pancakes,3,foods,2,5
+35,9,Mints,3,foods,2,5
+36,9,Lava cake,3,foods,2,5
+37,9,Chocolate cake,3,foods,2,5
+38,9,Vanilla cake,3,foods,2,5
+39,9,Frosting,3,foods,2,5
+40,9,Cookie,3,foods,2,5
+41,9,Strawberries,3,foods,2,5
+42,9,Mango,3,foods,2,5
+43,9,Coconut,3,foods,2,5
+44,9,Kiwi,3,foods,2,5
+45,9,Yogurt,3,foods,2,5
+46,9,Oreo,3,foods,2,5
+47,9,Vanilla,3,foods,2,5
+48,9,Oreo,3,foods,2,5
+119,9,Chicken,3,foods,4,6
+120,9,banana,3,foods,4,6
+121,9,strawberry,3,foods,4,6
+122,9,kiwi,3,foods,4,6
+123,9,banana,3,foods,4,6
+124,9,Mango,3,foods,4,6
+125,9,coconut,3,foods,4,6
+126,9,chips,3,foods,4,6
+127,9,cookies,3,foods,4,6
+128,9,candy,3,foods,4,6
+129,9,mint,3,foods,4,6
+130,9,blueberries,3,foods,4,6
+131,9,strawberries,3,foods,4,6
+132,9,strawberries,3,foods,4,6
+133,9,Grapes,3,foods,4,6
+134,9,Green grapes,3,foods,4,6
+135,9,Black grapes,3,foods,4,6
+37,10,Chicken,3,foods,2,7
+38,10,rice,3,foods,2,7
+39,10,steak,3,foods,2,7
+40,10,noodles,3,foods,2,7
+41,10,macaroni,3,foods,2,7
+42,10,cheese,3,foods,2,7
+43,10,hamburger,3,foods,2,7
+44,10,soup,3,foods,2,7
+45,10,salad,3,foods,2,7
+78,10,Hamburgers,3,foods,4,8
+79,10,Chicken,3,foods,4,8
+80,10,Steak,3,foods,4,8
+81,10,Rice,3,foods,4,8
+82,10,Meat,3,foods,4,8
+83,10,Bread,3,foods,4,8
+84,10,Yogurt,3,foods,4,8
+85,10,[unclear],3,foods,4,8
+86,10,Milk,3,foods,4,8
+87,10,Butter,3,foods,4,8
+88,10,Cheese,3,foods,4,8
+30,11,broccoli,3,foods,2,9
+31,11,lettuce,3,foods,2,9
+32,11,water,3,foods,2,9
+33,11,fish,3,foods,2,9
+34,11,salmon,3,foods,2,9
+35,11,pig,3,foods,2,9
+36,11,bacon,3,foods,2,9
+37,11,ham,3,foods,2,9
+38,11,sausage,3,foods,2,9
+39,11,bacon,3,foods,2,9
+40,11,Ham,3,foods,2,9
+41,11,Salmon,3,foods,2,9
+42,11,Milk,3,foods,2,9
+43,11,yogurt,3,foods,2,9
+44,11,hot chocolate,3,foods,2,9
+129,11,Salmon,3,foods,4,10
+130,11,broccoli,3,foods,4,10
+131,11,lettuce,3,foods,4,10
+132,11,fish,3,foods,4,10
+133,11,salmon,3,foods,4,10
+134,11,Goldfish,3,foods,4,10
+135,11,goldfish,3,foods,4,10
+136,11,food,3,foods,4,10
+137,11,Cheetos,3,foods,4,10
+138,11,Applesauce,3,foods,4,10
+139,11,trains,3,foods,4,10
+140,11,Candy,3,foods,4,10
+141,11,Chocolate,3,foods,4,10
+142,11,pom poms,3,foods,4,10
+23,12,Meatball,3,foods,2,11
+24,12,Spaghetti,3,foods,2,11
+25,12,dumplings,3,foods,2,11
+26,12,Ice cream,3,foods,2,11
+27,12,frozen fruits,3,foods,2,11
+28,12,lollipop,3,foods,2,11
+29,12,Banana,3,foods,2,11
+30,12,Apple,3,foods,2,11
+31,12,Orange,3,foods,2,11
+32,12,kiwi,3,foods,2,11
+33,12,pineapple,3,foods,2,11
+49,12,Apple,3,foods,4,12
+50,12,banana,3,foods,4,12
+51,12,orange,3,foods,4,12
+52,12,ice cream,3,foods,4,12
+53,12,lollipop,3,foods,4,12
+54,12,dumpling,3,foods,4,12
+55,12,Bread,3,foods,4,12
+56,12,Vegetables,3,foods,4,12
+57,12,Broccoli,3,foods,4,12
+58,12,green beans,3,foods,4,12
+59,12,beans,3,foods,4,12
+60,12,fruit stuff,3,foods,4,12
+12,13,corn,3,foods,1,13
+13,13,broccoli,3,foods,1,13
+14,13,carrots,3,foods,1,13
+15,13,blueberries,3,foods,1,13
+16,13,beans,3,foods,1,13
+17,13,Broccoli,3,foods,1,13
+18,13,carrots,3,foods,1,13
+19,13,canteloupe,3,foods,1,13
+20,13,watermelon,3,foods,1,13
+21,13,Strawberries,3,foods,1,13
+102,13,Pineapples,3,foods,4,14
+103,13,Corn,3,foods,4,14
+104,13,Watermelon,3,foods,4,14
+105,13,broccoli,3,foods,4,14
+106,13,Peas,3,foods,4,14
+107,13,Green beans,3,foods,4,14
+108,13,Toys,3,foods,4,14
+109,13,grocery bags,3,foods,4,14
+110,13,foods,3,foods,4,14
+111,13,Carrots,3,foods,4,14
+112,13,Corn,3,foods,4,14
+18,14,Apples,3,foods,1,15
+19,14,Pineapples,3,foods,1,15
+20,14,Strawberries,3,foods,1,15
+21,14,Steak,3,foods,1,15
+22,14,Chicken,3,foods,1,15
+23,14,Bread,3,foods,1,15
+24,14,Avocados,3,foods,1,15
+25,14,Oranges,3,foods,1,15
+26,14,bananas,3,foods,1,15
+27,14,Canteloupes,3,foods,1,15
+28,14,Grape,3,foods,1,15
+29,14,Blueberries,3,foods,1,15
+30,14,Raspberry,3,foods,1,15
+31,14,Bananas,3,foods,1,15
+32,14,Pancakes,3,foods,1,15
+33,14,Pancake,3,foods,1,15
+34,14,bananas,3,foods,1,15
+35,14,bananas,3,foods,1,15
+36,14,Pinkie,3,foods,1,15
+76,14,Apples,3,foods,3,16
+77,14,bananas,3,foods,3,16
+78,14,oranges,3,foods,3,16
+79,14,tomatoes,3,foods,3,16
+80,14,pancakes,3,foods,3,16
+81,14,waffles,3,foods,3,16
+82,14,shrimp,3,foods,3,16
+83,14,steak,3,foods,3,16
+84,14,chicken,3,foods,3,16
+85,14,ice cream,3,foods,3,16
+86,14,ice pops,3,foods,3,16
+87,14,sour cream,3,foods,3,16
+88,14,cheese,3,foods,3,16
+89,14,meat,3,foods,3,16
+90,14,turkey,3,foods,3,16
+91,14,ham,3,foods,3,16
+92,14,syrup,3,foods,3,16
+93,14,Cereal,3,foods,3,16
+57,15,Bacon,3,foods,2,17
+58,15,pork,3,foods,2,17
+59,15,Chicken,3,foods,2,17
+60,15,drumstick,3,foods,2,17
+61,15,wing,3,foods,2,17
+62,15,chicken,3,foods,2,17
+63,15,strawberries,3,foods,2,17
+64,15,broccoli,3,foods,2,17
+65,15,spinach,3,foods,2,17
+66,15,carrots,3,foods,2,17
+67,15,tomatoes,3,foods,2,17
+68,15,pasta,3,foods,2,17
+69,15,pasta,3,foods,2,17
+70,15,red sauce,3,foods,2,17
+71,15,yogurt,3,foods,2,17
+72,15,granola,3,foods,2,17
+73,15,cereal,3,foods,2,17
+74,15,bananas,3,foods,2,17
+125,15,Sausages,3,foods,4,18
+126,15,hamburgers,3,foods,4,18
+127,15,salads,3,foods,4,18
+128,15,Chicken,3,foods,4,18
+129,15,bacon,3,foods,4,18
+130,15,pasta,3,foods,4,18
+131,15,bacon,3,foods,4,18
+132,15,pork,3,foods,4,18
+133,15,chicken,3,foods,4,18
+134,15,Bananas,3,foods,4,18
+135,15,apples,3,foods,4,18
+136,15,strawberries,3,foods,4,18
+137,15,blackberries,3,foods,4,18
+138,15,blueberries,3,foods,4,18
+139,15,cherries,3,foods,4,18
+140,15,Cheese,3,foods,4,18
+141,15,Goat cheese,3,foods,4,18
+142,15,milk,3,foods,4,18
+35,18,Sandwich,3,foods,2,19
+36,18,cereal,3,foods,2,19
+37,18,Pasta,3,foods,2,19
+38,18,Pizza,3,foods,2,19
+39,18,dessert,3,foods,2,19
+40,18,ice cream,3,foods,2,19
+41,18,Pepper,3,foods,2,19
+42,18,Apple,3,foods,2,19
+43,18,Banana,3,foods,2,19
+44,18,Orange,3,foods,2,19
+45,18,Cereal,3,foods,2,19
+46,18,Cereal,3,foods,2,19
+47,18,Kiwi,3,foods,2,19
+48,18,Avocado,3,foods,2,19
+49,18,Grapefruit,3,foods,2,19
+50,18,Grape,3,foods,2,19
+51,18,Zucchini,3,foods,2,19
+52,18,Chicken,3,foods,2,19
+53,18,Steak,3,foods,2,19
+91,18,Pickles,3,foods,4,20
+92,18,bananas,3,foods,4,20
+93,18,cookies,3,foods,4,20
+94,18,ice cream,3,foods,4,20
+95,18,bananas,3,foods,4,20
+96,18,ice cream,3,foods,4,20
+97,18,Ice cream sandwich,3,foods,4,20
+98,18,brownie,3,foods,4,20
+99,18,milk,3,foods,4,20
+100,18,Hot dog,3,foods,4,20
+101,18,oranges,3,foods,4,20
+39,19,noodles,3,foods,2,21
+40,19,broccoli,3,foods,2,21
+41,19,rice,3,foods,2,21
+42,19,spinach,3,foods,2,21
+43,19,chicken,3,foods,2,21
+44,19,mac and cheese,3,foods,2,21
+45,19,broccoli,3,foods,2,21
+46,19,string beans,3,foods,2,21
+47,19,tomatoes,3,foods,2,21
+48,19,carrots,3,foods,2,21
+49,19,meat,3,foods,2,21
+50,19,Shrimp,3,foods,2,21
+51,19,lollipop,3,foods,2,21
+52,19,gummies,3,foods,2,21
+53,19,ring pops,3,foods,2,21
+103,19,Zucchini,3,foods,4,22
+104,19,strawberry,3,foods,4,22
+105,19,lettuce,3,foods,4,22
+106,19,Avocado,3,foods,4,22
+107,19,spinach,3,foods,4,22
+108,19,apple,3,foods,4,22
+109,19,cheese,3,foods,4,22
+110,19,yogurt,3,foods,4,22
+111,19,Strawberry,3,foods,4,22
+112,19,Banana,3,foods,4,22
+113,19,Tomato,3,foods,4,22
+114,19,String beans,3,foods,4,22
+115,19,Corn,3,foods,4,22
+116,19,broccoli,3,foods,4,22
+117,19,zucchini,3,foods,4,22
+118,19,Noodles,3,foods,4,22
+119,19,Mac and cheese,3,foods,4,22
+120,19,foods,3,foods,4,22
+42,20,hot dogs,3,foods,2,23
+43,20,Elephant,3,foods,2,23
+44,20,tree,3,foods,2,23
+45,20,Fish,3,foods,2,23
+46,20,turkey,3,foods,2,23
+47,20,hamburger,3,foods,2,23
+48,20,everything,3,foods,2,23
+49,20,Mac and cheese,3,foods,2,23
+50,20,Yogurt,3,foods,2,23
+51,20,[unclear],3,foods,2,23
+52,20,[unclear],3,foods,2,23
+67,20,chicken,3,foods,4,24
+68,20,chickaletta,3,foods,4,24
+69,20,mac and cheese,3,foods,4,24
+70,20,hot dogs,3,foods,4,24
+71,20,aliens,3,foods,4,24
+72,20,ham,3,foods,4,24
+73,20,Salmon,3,foods,4,24
+74,20,[unclear],3,foods,4,24
+12,21,broccoli,3,foods,1,25
+13,21,carrot,3,foods,1,25
+14,21,fruit,3,foods,1,25
+15,21,vegetable,3,foods,1,25
+16,21,carrot,3,foods,1,25
+17,21,Pizza,3,foods,1,25
+18,21,Pizza,3,foods,1,25
+19,21,carrot,3,foods,1,25
+20,21,salad,3,foods,1,25
+21,21,cucumber,3,foods,1,25
+63,21,Pizza,3,foods,3,26
+64,21,worm,3,foods,3,26
+65,21,vegetable,3,foods,3,26
+66,21,Vegetables,3,foods,3,26
+67,21,food,3,foods,3,26
+68,21,carrot,3,foods,3,26
+69,21,Fruits,3,foods,3,26
+70,21,strawberry,3,foods,3,26
+71,21,banana,3,foods,3,26
+72,21,Pizza,3,foods,3,26
+73,21,carrot,3,foods,3,26
+74,21,Reading books,3,foods,3,26
+75,21,food,3,foods,3,26
+76,21,pizza,3,foods,3,26
+77,21,carrot,3,foods,3,26
+78,21,[unclear],3,foods,3,26
+26,22,bananas,3,foods,1,27
+27,22,apples,3,foods,1,27
+28,22,chips,3,foods,1,27
+29,22,pizza,3,foods,1,27
+30,22,noodles,3,foods,1,27
+31,22,pears,3,foods,1,27
+32,22,bananas,3,foods,1,27
+33,22,cucumbers,3,foods,1,27
+34,22,yogurt,3,foods,1,27
+35,22,mac and cheese,3,foods,1,27
+36,22,strawberries,3,foods,1,27
+37,22,pickles,3,foods,1,27
+38,22,papaya,3,foods,1,27
+39,22,popcorn,3,foods,1,27
+40,22,cheese,3,foods,1,27
+41,22,sliced cheese,3,foods,1,27
+42,22,milk,3,foods,1,27
+43,22,water,3,foods,1,27
+44,22,juice,3,foods,1,27
+45,22,orange,3,foods,1,27
+46,22,foods,3,foods,1,27
+74,22,bananas,3,foods,3,28
+75,22,apples,3,foods,3,28
+76,22,pears,3,foods,3,28
+77,22,pickles,3,foods,3,28
+78,22,popcorn,3,foods,3,28
+79,22,cucumbers,3,foods,3,28
+80,22,water,3,foods,3,28
+81,22,juice,3,foods,3,28
+82,22,milk,3,foods,3,28
+83,22,cheese,3,foods,3,28
+84,22,sliced cheese,3,foods,3,28
+85,22,apples,3,foods,3,28
+86,22,pickles,3,foods,3,28
+14,23,Pizza,3,foods,1,29
+15,23,Pasta,3,foods,1,29
+16,23,Cheese,3,foods,1,29
+17,23,Banana,3,foods,1,29
+18,23,Cereal,3,foods,1,29
+19,23,chocolate computer,3,foods,1,29
+20,23,chocolate hat,3,foods,1,29
+21,23,Chocolate pom-pom,3,foods,1,29
+22,23,Chocolate everything,3,foods,1,29
+70,23,Pasta,3,foods,3,30
+71,23,Pizza,3,foods,3,30
+72,23,Every type of pizza,3,foods,3,30
+73,23,People eating food,3,foods,3,30
+74,23,Fish,3,foods,3,30
+75,23,Pigs,3,foods,3,30
+76,23,Broccoli,3,foods,3,30
+77,23,Cheese,3,foods,3,30
+35,24,French toast,3,foods,1,31
+36,24,Chocolate pancakes,3,foods,1,31
+37,24,regular pancakes,3,foods,1,31
+38,24,whipped cream,3,foods,1,31
+39,24,strawberry,3,foods,1,31
+40,24,raspberry,3,foods,1,31
+41,24,banana,3,foods,1,31
+42,24,apple,3,foods,1,31
+43,24,meat,3,foods,1,31
+44,24,broccoli,3,foods,1,31
+45,24,lettuce,3,foods,1,31
+46,24,spinach,3,foods,1,31
+47,24,artichoke,3,foods,1,31
+48,24,tomato,3,foods,1,31
+49,24,Peach,3,foods,1,31
+50,24,Chips,3,foods,1,31
+51,24,Fries,3,foods,1,31
+52,24,Ice cream,3,foods,1,31
+89,24,Banana,3,foods,3,32
+90,24,apple,3,foods,3,32
+91,24,shrimp,3,foods,3,32
+92,24,lettuce,3,foods,3,32
+93,24,spinach,3,foods,3,32
+94,24,zucchini,3,foods,3,32
+95,24,broccoli,3,foods,3,32
+96,24,tomato,3,foods,3,32
+97,24,orange,3,foods,3,32
+98,24,celementine,3,foods,3,32
+99,24,tangerine,3,foods,3,32
+100,24,grapefruit,3,foods,3,32
+101,24,dragon fruit,3,foods,3,32
+102,24,beef,3,foods,3,32
+103,24,pork,3,foods,3,32
+104,24,meat,3,foods,3,32
+11,25,Pasta,3,foods,2,33
+12,25,bell pepper,3,foods,2,33
+13,25,vegetable,3,foods,2,33
+14,25,kiwi,3,foods,2,33
+15,25,granola bars,3,foods,2,33
+33,25,Bell pepper,3,foods,4,34
+34,25,Tomatoes,3,foods,4,34
+35,25,Tomatoes,3,foods,4,34
+36,25,Oranges,3,foods,4,34
+37,25,Potatoes,3,foods,4,34
+38,25,onions,3,foods,4,34
+39,25,Rice krispy treats,3,foods,4,34
+40,25,lollipops,3,foods,4,34
+25,26,Pizza,3,foods,2,35
+26,26,Noodle,3,foods,2,35
+27,26,pears,3,foods,2,35
+28,26,Brownies,3,foods,2,35
+29,26,treat,3,foods,2,35
+30,26,mashed potatoes,3,foods,2,35
+31,26,Cinnamon potatoes,3,foods,2,35
+32,26,regular potatoes,3,foods,2,35
+69,26,pizza,3,foods,4,36
+70,26,pepperoni,3,foods,4,36
+71,26,pizza,3,foods,4,36
+72,26,tamales,3,foods,4,36
+73,26,Green pizza,3,foods,4,36
+28,28,goulash,3,foods,2,37
+29,28,Rice,3,foods,2,37
+30,28,Shrimp,3,foods,2,37
+31,28,Fish,3,foods,2,37
+32,28,frittata,3,foods,2,37
+33,28,chicken,3,foods,2,37
+34,28,ice cream,3,foods,2,37
+35,28,Frozen custard,3,foods,2,37
+36,28,custard,3,foods,2,37
+37,28,Naan bread,3,foods,2,37
+72,28,Ice cream,3,foods,4,38
+73,28,cherry,3,foods,4,38
+74,28,strawberry,3,foods,4,38
+75,28,cucumber,3,foods,4,38
+76,28,alphabet cookie,3,foods,4,38
+77,28,bread,3,foods,4,38
+78,28,ice cream,3,foods,4,38
+79,28,[unclear],3,foods,4,38
+80,28,Sea bar,3,foods,4,38
+81,28,Cliff bar,3,foods,4,38
+82,28,Pickle,3,foods,4,38
+83,28,Banana,3,foods,4,38
+61,29,Sushi,3,foods,2,39
+62,29,Rice,3,foods,2,39
+63,29,Chicken,3,foods,2,39
+64,29,Pizza,3,foods,2,39
+65,29,hamburger,3,foods,2,39
+66,29,mushroom,3,foods,2,39
+67,29,vegetable,3,foods,2,39
+68,29,candy,3,foods,2,39
+69,29,hershey,3,foods,2,39
+70,29,lollipop,3,foods,2,39
+71,29,beef,3,foods,2,39
+72,29,sour chicken,3,foods,2,39
+73,29,cabbage,3,foods,2,39
+74,29,fish,3,foods,2,39
+75,29,salmon,3,foods,2,39
+76,29,cow,3,foods,2,39
+104,29,roasted chicken,3,foods,4,40
+105,29,Roast chicken,3,foods,4,40
+106,29,grilled cheese,3,foods,4,40
+107,29,chicken,3,foods,4,40
+108,29,hamburger,3,foods,4,40
+109,29,quesadilla,3,foods,4,40
+110,29,sausage,3,foods,4,40
+111,29,hot dog,3,foods,4,40
+112,29,Bun,3,foods,4,40
+113,29,hot dog bun,3,foods,4,40
+114,29,sour chicken,3,foods,4,40
+115,29,Indian chicken,3,foods,4,40
+116,29,chicken nugs,3,foods,4,40
+8,30,Pizza,3,foods,1,41
+9,30,tacos,3,foods,1,41
+10,30,Brussel sprouts,3,foods,1,41
+11,30,eggplant,3,foods,1,41
+12,30,game,3,foods,1,41
+13,30,bat,3,foods,1,41
+14,30,Mac and cheese,3,foods,1,41
+15,30,Chicken nuggets,3,foods,1,41
+16,30,Broccoli,3,foods,1,41
+17,30,Corn,3,foods,1,41
+18,30,Apple,3,foods,1,41
+19,30,Banana,3,foods,1,41
+20,30,Cherries,3,foods,1,41
+21,30,Ice cream,3,foods,1,41
+22,30,Candy,3,foods,1,41
+23,30,salmon,3,foods,1,41
+24,30,grilled cheese,3,foods,1,41
+25,30,soup,3,foods,1,41
+81,30,Taco,3,foods,3,42
+82,30,pizza,3,foods,3,42
+83,30,mac and cheese,3,foods,3,42
+84,30,brussel sprouts,3,foods,3,42
+85,30,broccoli,3,foods,3,42
+86,30,corn,3,foods,3,42
+87,30,apple,3,foods,3,42
+88,30,banana,3,foods,3,42
+89,30,pear,3,foods,3,42
+90,30,cheese,3,foods,3,42
+91,30,ice cream,3,foods,3,42
+92,30,chocolate,3,foods,3,42
+93,30,candy,3,foods,3,42
+94,30,quesadilla,3,foods,3,42
+95,30,muffin,3,foods,3,42
+96,30,bagel,3,foods,3,42
+97,30,toast,3,foods,3,42
+98,30,sandwich,3,foods,3,42
+20,31,turkey,3,foods,1,43
+21,31,soup,3,foods,1,43
+22,31,tomatoes,3,foods,1,43
+23,31,Pepper,3,foods,1,43
+24,31,Orange,3,foods,1,43
+25,31,Banana,3,foods,1,43
+26,31,Strawberry,3,foods,1,43
+27,31,dragonfruit,3,foods,1,43
+28,31,watermelon,3,foods,1,43
+29,31,Chicken nuggets,3,foods,1,43
+30,31,ice cream,3,foods,1,43
+31,31,grapes,3,foods,1,43
+32,31,ice cream,3,foods,1,43
+33,31,grapes,3,foods,1,43
+34,31,yoghurt,3,foods,1,43
+35,31,Mm-hmm,3,foods,1,43
+64,31,Meat,3,foods,3,44
+65,31,Eggs,3,foods,3,44
+66,31,Bananas,3,foods,3,44
+67,31,Strawberries,3,foods,3,44
+68,31,Eggs,3,foods,3,44
+69,31,Yogurt,3,foods,3,44
+70,31,Peppers,3,foods,3,44
+71,31,grapes,3,foods,3,44
+72,31,Purple grapes,3,foods,3,44
+73,31,Green grapes,3,foods,3,44
+74,31,oranges,3,foods,3,44
+75,31,Mandarin,3,foods,3,44
+76,31,Milk,3,foods,3,44
+77,31,Chocolate milk,3,foods,3,44
+78,31,Vanilla,3,foods,3,44
+79,31,Vanilla milk,3,foods,3,44
+80,31,peach,3,foods,3,44
+81,31,strawberries,3,foods,3,44
+82,31,small bananas,3,foods,3,44
+8,32,cucumber,3,foods,1,45
+9,32,carrot,3,foods,1,45
+10,32,bell pepper,3,foods,1,45
+11,32,potato,3,foods,1,45
+12,32,grapes,3,foods,1,45
+13,32,lettuce,3,foods,1,45
+14,32,corn,3,foods,1,45
+66,32,crabs,3,foods,3,46
+67,32,chicken,3,foods,3,46
+68,32,Rice,3,foods,3,46
+69,32,Daal,3,foods,3,46
+70,32,Roti,3,foods,3,46
+71,32,Corn,3,foods,3,46
+72,32,Peas,3,foods,3,46
+73,32,Eggs,3,foods,3,46
+74,32,Waffles,3,foods,3,46
+75,32,Pancakes,3,foods,3,46
+76,32,Cake,3,foods,3,46
+77,32,Ice cream,3,foods,3,46
+78,32,Chips,3,foods,3,46
+15,33,Fish,3,foods,1,47
+16,33,rice,3,foods,1,47
+17,33,beans,3,foods,1,47
+18,33,Popcorn,3,foods,1,47
+19,33,Treats,3,foods,1,47
+20,33,Pasta,3,foods,1,47
+37,33,Ice cream,3,foods,3,48
+38,33,Chocolate,3,foods,3,48
+39,33,Chocolate cake,3,foods,3,48
+40,33,pasta,3,foods,3,48
+41,33,coconut,3,foods,3,48
+42,33,bananas,3,foods,3,48
+43,33,apricots,3,foods,3,48
+44,33,monkeys,3,foods,3,48
+45,33,zebras,3,foods,3,48
+46,33,Birds,3,foods,3,48
+47,33,Fish,3,foods,3,48
+48,33,giraffes,3,foods,3,48
+49,33,green,3,foods,3,48
+50,33,anacondas,3,foods,3,48
+51,33,gold,3,foods,3,48
+52,33,fish,3,foods,3,48
+5,34,Cupcake,3,foods,2,49
+6,34,Chocolate,3,foods,2,49
+7,34,Ice cream,3,foods,2,49
+8,34,Popcorn,3,foods,2,49
+9,34,Ice cream,3,foods,2,49
+10,34,Popcorn,3,foods,2,49
+11,34,Cookie,3,foods,2,49
+20,34,Ice cream,3,foods,4,50
+21,34,Rice,3,foods,4,50
+22,34,Meat,3,foods,4,50
+23,34,Peach,3,foods,4,50
+24,34,Dunkin Donut,3,foods,4,50
+25,34,Apple,3,foods,4,50
+26,34,Mango,3,foods,4,50
+27,34,Lollipop,3,foods,4,50
+42,35,Bread,3,foods,2,51
+43,35,butter,3,foods,2,51
+44,35,apples,3,foods,2,51
+45,35,bananas,3,foods,2,51
+46,35,oranges,3,foods,2,51
+47,35,clementines,3,foods,2,51
+48,35,blueberries,3,foods,2,51
+49,35,strawberries,3,foods,2,51
+50,35,carrots,3,foods,2,51
+51,35,broccoli,3,foods,2,51
+52,35,rice,3,foods,2,51
+53,35,corn,3,foods,2,51
+54,35,peanuts,3,foods,2,51
+55,35,sunflower seeds,3,foods,2,51
+56,35,Gum,3,foods,2,51
+57,35,Rosemary,3,foods,2,51
+58,35,Shredded cheese,3,foods,2,51
+59,35,cheese,3,foods,2,51
+60,35,Parmesan cheese,3,foods,2,51
+61,35,French cut green beans,3,foods,2,51
+113,35,bread,3,foods,4,52
+114,35,butter,3,foods,4,52
+115,35,banana,3,foods,4,52
+116,35,apple,3,foods,4,52
+117,35,clementine,3,foods,4,52
+118,35,orange,3,foods,4,52
+119,35,rice,3,foods,4,52
+120,35,broccoli,3,foods,4,52
+121,35,corn,3,foods,4,52
+122,35,carrot,3,foods,4,52
+123,35,Broccoli,3,foods,4,52
+124,35,lettuce,3,foods,4,52
+125,35,Tomatoes,3,foods,4,52
+126,35,Tomato sauce,3,foods,4,52
+127,35,Pizza sauce,3,foods,4,52
+128,35,Cheese,3,foods,4,52
+129,35,Crust,3,foods,4,52
+39,36,Strawberries,3,foods,2,53
+40,36,Broccoli,3,foods,2,53
+41,36,Rice,3,foods,2,53
+42,36,salmon,3,foods,2,53
+43,36,salmon fish,3,foods,2,53
+44,36,fish,3,foods,2,53
+45,36,strawberries,3,foods,2,53
+46,36,blueberries,3,foods,2,53
+47,36,grapes,3,foods,2,53
+48,36,Radish,3,foods,2,53
+49,36,tomato,3,foods,2,53
+50,36,Broccoli,3,foods,2,53
+51,36,broccoli,3,foods,2,53
+52,36,beef,3,foods,2,53
+53,36,burnt flesh,3,foods,2,53
+54,36,wine flasks,3,foods,2,53
+81,36,Lettuce,3,foods,4,54
+82,36,strawberry,3,foods,4,54
+83,36,blueberry,3,foods,4,54
+84,36,grape,3,foods,4,54
+85,36,rice,3,foods,4,54
+86,36,blueberries,3,foods,4,54
+87,36,rice,3,foods,4,54
+88,36,salmon,3,foods,4,54
+89,36,salmon fish,3,foods,4,54
+90,36,raw beef,3,foods,4,54
+91,36,regular beef,3,foods,4,54
+92,36,Popcorn,3,foods,4,54
+6,37,mac and cheese,3,foods,1,55
+7,37,hamburger,3,foods,1,55
+8,37,hot dogs,3,foods,1,55
+9,37,rice,3,foods,1,55
+10,37,lettuce,3,foods,1,55
+11,37,tomatoes,3,foods,1,55
+12,37,mango,3,foods,1,55
+13,37,bread,3,foods,1,55
+14,37,cake,3,foods,1,55
+15,37,donut,3,foods,1,55
+16,37,ice cream,3,foods,1,55
+17,37,lettuce,3,foods,1,55
+18,37,eggplant,3,foods,1,55
+19,37,pineapple,3,foods,1,55
+68,37,hamburger,3,foods,3,56
+69,37,steak,3,foods,3,56
+70,37,beans,3,foods,3,56
+71,37,corn,3,foods,3,56
+72,37,tomatoes,3,foods,3,56
+73,37,mushrooms,3,foods,3,56
+74,37,eggplant,3,foods,3,56
+75,37,raspberries,3,foods,3,56
+76,37,blueberries,3,foods,3,56
+77,37,[unclear],3,foods,3,56
+78,37,hot dogs,3,foods,3,56
+79,37,pizza,3,foods,3,56
+80,37,Pepperoni,3,foods,3,56
+81,37,Cheese,3,foods,3,56
+82,37,sauce,3,foods,3,56
+12,38,Broccoli,3,foods,1,57
+13,38,Cheeseburger,3,foods,1,57
+14,38,Snack,3,foods,1,57
+15,38,cheese,3,foods,1,57
+16,38,pasta,3,foods,1,57
+17,38,Grapes,3,foods,1,57
+18,38,ham,3,foods,1,57
+19,38,Steak,3,foods,1,57
+20,38,chicken,3,foods,1,57
+21,38,Meat,3,foods,1,57
+22,38,Pear,3,foods,1,57
+23,38,Purple grapes,3,foods,1,57
+39,38,Apple,3,foods,3,58
+40,38,broccoli,3,foods,3,58
+41,38,green grape,3,foods,3,58
+42,38,Vegetable,3,foods,3,58
+43,38,Tomato,3,foods,3,58
+44,38,Banana,3,foods,3,58
+45,38,Pear,3,foods,3,58
+46,38,Strawberry,3,foods,3,58
+47,38,Raspberry,3,foods,3,58
+48,38,Grape,3,foods,3,58
+49,38,Grape,3,foods,3,58
+50,38,Strawberry,3,foods,3,58
+51,38,Pear,3,foods,3,58
+52,38,Strawberry,3,foods,3,58
+53,38,Spaghetti,3,foods,3,58
+11,40,apple,3,foods,1,59
+12,40,pear,3,foods,1,59
+13,40,banana,3,foods,1,59
+14,40,broccoli,3,foods,1,59
+15,40,tomato,3,foods,1,59
+16,40,eggplant,3,foods,1,59
+17,40,bittermelon,3,foods,1,59
+18,40,spinach,3,foods,1,59
+19,40,eggs,3,foods,1,59
+20,40,banana,3,foods,1,59
+21,40,strawberry,3,foods,1,59
+22,40,grapes,3,foods,1,59
+23,40,blueberries,3,foods,1,59
+24,40,cookie,3,foods,1,59
+25,40,donut,3,foods,1,59
+26,40,chocolate chip cookie,3,foods,1,59
+27,40,raisin cookie,3,foods,1,59
+28,40,pepper,3,foods,1,59
+29,40,zucchini,3,foods,1,59
+30,40,ham,3,foods,1,59
+31,40,chicken,3,foods,1,59
+102,40,cabbage,3,foods,3,60
+103,40,lettuce,3,foods,3,60
+104,40,corn,3,foods,3,60
+105,40,cereal,3,foods,3,60
+106,40,pepper,3,foods,3,60
+107,40,lettuce,3,foods,3,60
+108,40,corn,3,foods,3,60
+109,40,blueberries,3,foods,3,60
+110,40,chicken,3,foods,3,60
+111,40,strawberry,3,foods,3,60
+112,40,broccoli,3,foods,3,60
+113,40,eggplant,3,foods,3,60
+114,40,tomato,3,foods,3,60
+115,40,bittermelon,3,foods,3,60
+116,40,Strawberry,3,foods,3,60
+117,40,Cookies,3,foods,3,60
+118,40,Chocolate chip cookie,3,foods,3,60
+119,40,Raisin cookie,3,foods,3,60
+120,40,Plain cookie,3,foods,3,60
+121,40,Chocolate cookie,3,foods,3,60
+122,40,Muffin,3,foods,3,60
+123,40,Bread,3,foods,3,60
+124,40,Raisin bread,3,foods,3,60
+125,40,Cornbread,3,foods,3,60
+63,41,[chinese word],3,foods,2,61
+64,41,[unclear],3,foods,2,61
+65,41,cheese pizza,3,foods,2,61
+66,41,Lo mein,3,foods,2,61
+67,41,Italian food,3,foods,2,61
+68,41,Noodles,3,foods,2,61
+69,41,Mexican,3,foods,2,61
+70,41,Quesadilla,3,foods,2,61
+71,41,Taco,3,foods,2,61
+72,41,Burrito,3,foods,2,61
+73,41,Salad,3,foods,2,61
+74,41,Potato,3,foods,2,61
+75,41,salad,3,foods,2,61
+76,41,Cherry,3,foods,2,61
+77,41,salad,3,foods,2,61
+78,41,tomato,3,foods,2,61
+79,41,cherry,3,foods,2,61
+80,41,cherry tomato,3,foods,2,61
+81,41,salad,3,foods,2,61
+82,41,Mushroom,3,foods,2,61
+83,41,mushroom pizza,3,foods,2,61
+121,41,tissues,3,foods,4,62
+122,41,All,3,foods,4,62
+123,41,right,3,foods,4,62
+124,41,Apple,3,foods,4,62
+125,41,Orange,3,foods,4,62
+126,41,Peach,3,foods,4,62
+127,41,Grape,3,foods,4,62
+128,41,mandarin,3,foods,4,62
+129,41,tangerine,3,foods,4,62
+130,41,Yeah,3,foods,4,62
+131,41,Mango,3,foods,4,62
+132,41,Lemon,3,foods,4,62
+133,41,candy,3,foods,4,62
+134,41,grape,3,foods,4,62
+135,41,tissue box,3,foods,4,62
+136,41,lo mein,3,foods,4,62
+137,41,[chinese word],3,foods,4,62
+138,41,mermaid,3,foods,4,62
+139,41,Salad,3,foods,4,62
+140,41,Pizza,3,foods,4,62
+141,41,mac and cheese,3,foods,4,62
+142,41,[unclear],3,foods,4,62
+39,42,meat,3,foods,2,63
+40,42,duck,3,foods,2,63
+41,42,chicken,3,foods,2,63
+42,42,asparagus,3,foods,2,63
+43,42,radish,3,foods,2,63
+44,42,fish,3,foods,2,63
+45,42,banana,3,foods,2,63
+46,42,kiwi,3,foods,2,63
+47,42,raspberry,3,foods,2,63
+48,42,blackberry,3,foods,2,63
+49,42,pear,3,foods,2,63
+50,42,lemon,3,foods,2,63
+51,42,strawberry,3,foods,2,63
+108,42,kiwi,3,foods,4,64
+109,42,pig,3,foods,4,64
+110,42,cow,3,foods,4,64
+111,42,elephant,3,foods,4,64
+112,42,duck,3,foods,4,64
+113,42,raspberry,3,foods,4,64
+114,42,chicken,3,foods,4,64
+115,42,meat,3,foods,4,64
+116,42,radish,3,foods,4,64
+117,42,asparagus,3,foods,4,64
+118,42,broccoli,3,foods,4,64
+119,42,rice,3,foods,4,64
+120,42,pig,3,foods,4,64
+121,42,duck,3,foods,4,64
+122,42,pig,3,foods,4,64
+83,43,basil,3,foods,2,65
+84,43,nerd,3,foods,2,65
+85,43,Candy,3,foods,2,65
+86,43,Fruits,3,foods,2,65
+87,43,meat,3,foods,2,65
+88,43,fish,3,foods,2,65
+89,43,whales,3,foods,2,65
+90,43,salmon,3,foods,2,65
+91,43,lettuce,3,foods,2,65
+92,43,oranges,3,foods,2,65
+93,43,apples,3,foods,2,65
+94,43,lemons,3,foods,2,65
+95,43,Asparagus,3,foods,2,65
+96,43,Blueberries,3,foods,2,65
+97,43,fruits,3,foods,2,65
+98,43,watermelon,3,foods,2,65
+99,43,sausage,3,foods,2,65
+100,43,lamb,3,foods,2,65
+101,43,chop,3,foods,2,65
+102,43,pork,3,foods,2,65
+103,43,chop,3,foods,2,65
+104,43,bacon,3,foods,2,65
+105,43,scrambled eggs,3,foods,2,65
+159,43,Food,3,foods,4,66
+160,43,fish,3,foods,4,66
+161,43,meats,3,foods,4,66
+162,43,groceries,3,foods,4,66
+163,43,stuff,3,foods,4,66
+164,43,grocery stuff,3,foods,4,66
+165,43,fruits,3,foods,4,66
+166,43,sausage,3,foods,4,66
+167,43,apples,3,foods,4,66
+168,43,caramel,3,foods,4,66
+169,43,chocolates,3,foods,4,66
+170,43,candy,3,foods,4,66
+171,43,Twix,3,foods,4,66
+172,43,Airheads,3,foods,4,66
+173,43,Kit Kat,3,foods,4,66
+174,43,glow-in-the-dark kit kat,3,foods,4,66
+175,43,Asparagus,3,foods,4,66
+176,43,chip bags,3,foods,4,66
+177,43,chips,3,foods,4,66
+178,43,Sushi,3,foods,4,66
+179,43,Desserts,3,foods,4,66
+180,43,cake,3,foods,4,66
+181,43,cupcakes,3,foods,4,66
+182,43,anything,3,foods,4,66
+183,43,Fried eggs,3,foods,4,66
+184,43,scrambled eggs,3,foods,4,66
+185,43,meat,3,foods,4,66
+186,43,watermelon,3,foods,4,66
+6,44,Sandwiches,3,foods,1,67
+7,44,Hot dogs,3,foods,1,67
+8,44,Hamburger,3,foods,1,67
+9,44,French fries,3,foods,1,67
+10,44,Guacamole,3,foods,1,67
+11,44,Chicken,3,foods,1,67
+12,44,Carrots,3,foods,1,67
+13,44,Broccoli,3,foods,1,67
+14,44,Grapes,3,foods,1,67
+15,44,Bananas,3,foods,1,67
+16,44,Cheese,3,foods,1,67
+17,44,Milk,3,foods,1,67
+18,44,Juice,3,foods,1,67
+19,44,apples,3,foods,1,67
+20,44,Green grapes,3,foods,1,67
+21,44,Black grapes,3,foods,1,67
+78,44,Hamburgers,3,foods,3,68
+79,44,cheetohs,3,foods,3,68
+80,44,fruit snacks,3,foods,3,68
+81,44,mayonnaise,3,foods,3,68
+82,44,Apples,3,foods,3,68
+83,44,Peaches,3,foods,3,68
+84,44,Pears,3,foods,3,68
+85,44,grapes,3,foods,3,68
+86,44,Corn,3,foods,3,68
+87,44,Popcorn,3,foods,3,68
+88,44,Grapes,3,foods,3,68
+89,44,Broccoli,3,foods,3,68
+90,44,Carrots,3,foods,3,68
+91,44,zucchini,3,foods,3,68
+92,44,Jalapeños,3,foods,3,68
+93,44,Green grapes,3,foods,3,68
+94,44,Red grapes,3,foods,3,68
+95,44,black grapes,3,foods,3,68
+96,44,blue apples,3,foods,3,68
+97,44,green apples,3,foods,3,68
+33,45,Spaghetti,3,foods,1,69
+34,45,cotton candy,3,foods,1,69
+35,45,mac and cheese,3,foods,1,69
+36,45,cheeseburgers,3,foods,1,69
+37,45,lettuce,3,foods,1,69
+38,45,broccoli,3,foods,1,69
+39,45,carrots,3,foods,1,69
+40,45,potato chips,3,foods,1,69
+41,45,Cheetos,3,foods,1,69
+42,45,bagels,3,foods,1,69
+43,45,bread,3,foods,1,69
+44,45,animals,3,foods,1,69
+45,45,grass,3,foods,1,69
+46,45,salad,3,foods,1,69
+47,45,leaves,3,foods,1,69
+48,45,cauliflower,3,foods,1,69
+49,45,cabbage,3,foods,1,69
+50,45,wood,3,foods,1,69
+51,45,fruits,3,foods,1,69
+52,45,oranges,3,foods,1,69
+53,45,apples,3,foods,1,69
+54,45,bananas,3,foods,1,69
+55,45,mangoes,3,foods,1,69
+56,45,peaches,3,foods,1,69
+57,45,strawberries,3,foods,1,69
+94,45,Spaghetti,3,foods,3,70
+95,45,Cheeseburger,3,foods,3,70
+96,45,mac and cheese,3,foods,3,70
+97,45,Chicken nuggets,3,foods,3,70
+98,45,French toast,3,foods,3,70
+99,45,Waffles,3,foods,3,70
+100,45,Pancakes,3,foods,3,70
+101,45,Eggs,3,foods,3,70
+102,45,Scrambled eggs,3,foods,3,70
+103,45,Toast,3,foods,3,70
+104,45,butter,3,foods,3,70
+105,45,cream cheese,3,foods,3,70
+106,45,tomatoes,3,foods,3,70
+107,45,strawberries,3,foods,3,70
+108,45,lettuce,3,foods,3,70
+109,45,cabbage,3,foods,3,70
+110,45,cauliflower,3,foods,3,70
+111,45,broccoli,3,foods,3,70
+112,45,mangoes,3,foods,3,70
+113,45,fruits,3,foods,3,70
+114,45,strawberries,3,foods,3,70
+115,45,bananas,3,foods,3,70
+116,45,peaches,3,foods,3,70
+117,45,apples,3,foods,3,70
+118,45,cinnamon apples,3,foods,3,70
+119,45,cinnamon apple sauce,3,foods,3,70
+120,45,apple juice,3,foods,3,70
+14,46,sandwich,3,foods,1,71
+15,46,peanut butter,3,foods,1,71
+16,46,peanut,3,foods,1,71
+17,46,ketchup,3,foods,1,71
+18,46,french fries,3,foods,1,71
+19,46,applesauce,3,foods,1,71
+20,46,apple,3,foods,1,71
+21,46,banana,3,foods,1,71
+22,46,Candy,3,foods,1,71
+62,46,apple,3,foods,3,72
+63,46,banana,3,foods,3,72
+64,46,applesauce,3,foods,3,72
+65,46,cheesy pasta,3,foods,3,72
+66,46,candy,3,foods,3,72
+67,46,apple juice,3,foods,3,72
+68,46,milk,3,foods,3,72
+69,46,water,3,foods,3,72
+70,46,lemonade,3,foods,3,72
+71,46,green apple,3,foods,3,72
+29,47,klein bar,3,foods,1,73
+30,47,Pizza,3,foods,1,73
+31,47,Mac and cheese,3,foods,1,73
+32,47,Apple,3,foods,1,73
+33,47,Apple sauce,3,foods,1,73
+34,47,Italian ice,3,foods,1,73
+35,47,Ice cream,3,foods,1,73
+36,47,Sweets,3,foods,1,73
+37,47,Candy,3,foods,1,73
+38,47,Cookies,3,foods,1,73
+39,47,Cake,3,foods,1,73
+40,47,Drink,3,foods,1,73
+41,47,Cupcakes,3,foods,1,73
+42,47,party snacks,3,foods,1,73
+43,47,Snacks,3,foods,1,73
+44,47,granola bars,3,foods,1,73
+45,47,candy apples,3,foods,1,73
+46,47,Candy orange peels,3,foods,1,73
+47,47,yucky zombie skittles,3,foods,1,73
+91,47,celery,3,foods,3,74
+92,47,ants on a log,3,foods,3,74
+93,47,peanut butter,3,foods,3,74
+94,47,butter,3,foods,3,74
+95,47,ants that go on the log,3,foods,3,74
+96,47,grapes,3,foods,3,74
+97,47,plums,3,foods,3,74
+98,47,prunes,3,foods,3,74
+99,47,lemon,3,foods,3,74
+100,47,lime,3,foods,3,74
+101,47,celery,3,foods,3,74
+102,47,lettuce,3,foods,3,74
+103,47,guinea pig food,3,foods,3,74
+104,47,peanut butter,3,foods,3,74
+105,47,guinea pig vitamins,3,foods,3,74
+106,47,water,3,foods,3,74
+107,47,soda,3,foods,3,74
+108,47,grown-up drinks,3,foods,3,74
+109,47,grown-up food,3,foods,3,74
+43,48,potato,3,foods,2,75
+44,48,macaroni and cheese,3,foods,2,75
+45,48,cheese,3,foods,2,75
+46,48,noodles,3,foods,2,75
+47,48,apples,3,foods,2,75
+48,48,oranges,3,foods,2,75
+49,48,pineapple,3,foods,2,75
+50,48,chives,3,foods,2,75
+51,48,onions,3,foods,2,75
+93,48,tofu,3,foods,4,76
+94,48,strawberries,3,foods,4,76
+95,48,bananas,3,foods,4,76
+96,48,macaroni and cheese,3,foods,4,76
+97,48,regular cheese,3,foods,4,76
+98,48,hot dogs,3,foods,4,76
+99,48,lettuce,3,foods,4,76
+100,48,carrots,3,foods,4,76
+101,48,tomatoes,3,foods,4,76
+102,48,apples,3,foods,4,76
+103,48,watermelon,3,foods,4,76
+104,48,Grapes,3,foods,4,76
+105,48,Cherries,3,foods,4,76
+49,49,Noodles,3,foods,2,77
+50,49,Rice,3,foods,2,77
+51,49,Chicken,3,foods,2,77
+52,49,Noodles,3,foods,2,77
+53,49,meat,3,foods,2,77
+73,49,Noodles,3,foods,4,78
+74,49,Rice,3,foods,4,78
+75,49,Meat,3,foods,4,78
+76,49,Chicken,3,foods,4,78
+77,49,Carrot,3,foods,4,78
+78,49,Veggie,3,foods,4,78
+79,49,Blueberry,3,foods,4,78
+80,49,Grape,3,foods,4,78
